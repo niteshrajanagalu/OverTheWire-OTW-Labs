@@ -13,7 +13,7 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
  Password: `bandit0` (provided by OTW)
  Connected successfully.
 
-![SSH Connection](LEVEL0/Screenshots/1_sshlevel0.png)
+![SSH Connection](LEVEL0/screenshots/1_sshlevel0.png)
 
 ---
 
@@ -30,7 +30,7 @@ cat readme
 cat stands for concatenate and is used to Display the contents of a file to the terminal.
 Here Displays the content of readme on the terminal.
 
-![Commands and Output](LEVEL0/Screenshots/2_commands.png)
+![Commands and Output](LEVEL0/screenshots/2_commands.png)
 ## Solution / Password for Level 1
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
