@@ -1,534 +1,0 @@
-Script started on 2025-08-31 09:43:41+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="175" LINES="49"]
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[7ma2ps otw.txt -o - | ps2pdf - otw.pdf[27m[36D[27m[1m[31ma[27m[1m[31m2[27m[1m[31mp[27m[1m[31ms[0m[39m[27m [27m[4mo[27m[4mt[27m[4mw[27m[4m.[27m[4mt[27m[4mx[27m[4mt[24m[27m [27m-[27mo[27m [27m-[27m [27m|[27m [27m[32mp[27m[32ms[27m[32m2[27m[32mp[27m[32md[27m[32mf[39m[27m [27m-[27m [27mo[27mt[27mw[27m.[27mp[27md[27mf[?1l>[?2004l
-]2;a2ps otw.txt -o - | ps2pdf - otw.pdf]1;a2pszsh: command not found: a2ps
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?1l>[?2004l
-]2;clear]1;clear[H[2J[3J[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[7msudo apt update[27m[15D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[32ma[27m[32mp[27m[32mt[39m[27m [27mu[27mp[27md[27ma[27mt[27me[?1l>[?2004l
-]2;sudo apt update]1;apt[sudo] password for ethos: 
-[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Hit:1 http://http.kali.org/kali kali-rolling InRelease
-[33m                        0% [Working][0m[33m20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%                             Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                All packages are up to date.
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[7msudo apt install a2ps ghostscript -y[27m[36D[27m[4m[32ms[27m[4m[32mu[27m[4m[32md[27m[4m[32mo[24m[39m[27m [27m[32ma[27m[32mp[27m[32mt[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27ma[27m2[27mp[27ms[27m [27mg[27mh[27mo[27ms[27mt[27ms[27mc[27mr[27mi[27mp[27mt[27m [27m-[27my[?1l>[?2004l
-]2;sudo apt install a2ps ghostscript -y]1;aptReading package lists... 0%Reading package lists... 100%                              Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                ghostscript is already the newest version (10.05.1~dfsg-1).
-ghostscript set to manually installed.
-Installing:
-[32m  a2ps
-[0m
-Installing dependencies:
-[32m  lpr  psutils  python3-psutils  python3-puremagic  wdiff
-[0m
-Suggested packages:
-  groff  gv  html2ps  t1-cyrillic  magicfilter  | apsfilter  wdiff-doc
-
-Summary:
-  Upgrading: 0, Installing: 6, Removing: 0, Not Upgrading: 0
-  Download size: 950 kB
-  Space needed: 5,593 kB / 57.3 GB available
-
-[33m0% [Working][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:1 http://kali.download/kali kali-rolling/main amd64 python3-puremagic all 1.30-1 [40.2 kB]
-[33m                        7% [Working][0m            Get:2 http://kali.download/kali kali-rolling/main amd64 python3-psutils all 3.3.8-3 [23.9 kB]
-[33m9% [2 python3-psutils 23.9 kB/23.9 kB 100%][0m[33m                                           12% [Waiting for headers][0m                         Get:3 http://kali.download/kali kali-rolling/main amd64 psutils all 3.3.8-3 [12.8 kB]
-[33m13% [3 psutils 12.8 kB/12.8 kB 100%][0m[33m                                    16% [Waiting for headers][0m                         Get:4 http://http.kali.org/kali kali-rolling/main amd64 a2ps amd64 1:4.15.6-1+b1 [659 kB]
-[33m18% [4 a2ps 22.9 kB/659 kB 3%][0m[33m                              75% [Waiting for headers][0m                         Get:5 http://http.kali.org/kali kali-rolling/main amd64 lpr amd64 1:2008.05.17.3+nmu3.1 [92.0 kB]
-[33m76% [5 lpr 11.0 kB/92.0 kB 12%][0m[33m                               86% [Working][0m[33m86% [Connecting to mirror.freedif.org][0m                                      Get:6 http://mirror.freedif.org/kali kali-rolling/main amd64 wdiff amd64 1.2.2-9 [122 kB]
-[33m                                      88% [6 wdiff 13.8 kB/122 kB 11%][0m[33m                                100% [Working][0m              Fetched 950 kB in 2s (458 kB/s)
-
-7[0;48r8[1ASelecting previously unselected package python3-puremagic.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 425441 files and directories currently installed.)
-Preparing to unpack .../0-python3-puremagic_1.30-1_all.deb ...
-7[49;0f[42m[30mProgress: [  0%][49m[39m [                                                                                                                                                         ] 87[49;0f[42m[30mProgress: [  4%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ                                                                                                                                                   ] 8Unpacking python3-puremagic (1.30-1) ...
-7[49;0f[42m[30mProgress: [  8%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–                                                                                                                                            ] 8Selecting previously unselected package python3-psutils.
-Preparing to unpack .../1-python3-psutils_3.3.8-3_all.deb ...7[49;0f[42m[30mProgress: [ 12%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–Ž                                                                                                                                      ] 8
-Unpacking python3-psutils (3.3.8-3) ...
-7[49;0f[42m[30mProgress: [ 16%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–                                                                                                                                ] 8Selecting previously unselected package psutils.
-Preparing to unpack .../2-psutils_3.3.8-3_all.deb ...7[49;0f[42m[30mProgress: [ 20%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–Œ                                                                                                                          ] 8
-Unpacking psutils (3.3.8-3) ...
-7[49;0f[42m[30mProgress: [ 24%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‹                                                                                                                    ] 8Selecting previously unselected package a2ps.
-Preparing to unpack .../3-a2ps_1%3a4.15.6-1+b1_amd64.deb ...
-7[49;0f[42m[30mProgress: [ 28%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–Š                                                                                                              ] 8Unpacking a2ps (1:4.15.6-1+b1) ...
-7[49;0f[42m[30mProgress: [ 32%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‰                                                                                                        ] 8Selecting previously unselected package lpr.
-Preparing to unpack .../4-lpr_1%3a2008.05.17.3+nmu3.1_amd64.deb ...
-7[49;0f[42m[30mProgress: [ 36%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ                                                                                                  ] 8Unpacking lpr (1:2008.05.17.3+nmu3.1) ...
-7[49;0f[42m[30mProgress: [ 40%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–                                                                                           ] 8Selecting previously unselected package wdiff.
-Preparing to unpack .../5-wdiff_1.2.2-9_amd64.deb ...
-7[49;0f[42m[30mProgress: [ 44%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–Ž                                                                                     ] 8Unpacking wdiff (1.2.2-9) ...
-7[49;0f[42m[30mProgress: [ 48%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–                                                                               ] 8Setting up wdiff (1.2.2-9) ...
-7[49;0f[42m[30mProgress: [ 52%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–Œ                                                                         ] 87[49;0f[42m[30mProgress: [ 56%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‹                                                                   ] 8Setting up python3-puremagic (1.30-1) ...
-7[49;0f[42m[30mProgress: [ 60%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–Š                                                             ] 87[49;0f[42m[30mProgress: [ 64%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‰                                                       ] 8Setting up python3-psutils (3.3.8-3) ...
-7[49;0f[42m[30mProgress: [ 68%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ                                                 ] 87[49;0f[42m[30mProgress: [ 72%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–                                          ] 8Setting up lpr (1:2008.05.17.3+nmu3.1) ...
-7[49;0f[42m[30mProgress: [ 76%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–Ž                                    ] 8update-rc.d: We have no instructions for the lpd init script.
-update-rc.d: It looks like a non-network service, we enable it.
-7[49;0f[42m[30mProgress: [ 80%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–                              ] 8Setting up psutils (3.3.8-3) ...
-7[49;0f[42m[30mProgress: [ 84%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–Œ                        ] 87[49;0f[42m[30mProgress: [ 88%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‹                  ] 8Setting up a2ps (1:4.15.6-1+b1) ...
-7[49;0f[42m[30mProgress: [ 92%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–Š            ] 87[49;0f[42m[30mProgress: [ 96%][49m[39m [â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‰      ] 8Processing triggers for man-db (2.13.1-1) ...
-Processing triggers for kali-menu (2025.3.0) ...
-
-7[0;49r8[1A[J[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?1l>[?2004l
-]2;clear]1;clear[H[2J[3J[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[7ma2ps otw.txt -o - | ps2pdf - otw.pdf[27m[36D[27m[32ma[27m[32m2[27m[32mp[27m[32ms[39m[27m [27m[4mo[27m[4mt[27m[4mw[27m[4m.[27m[4mt[27m[4mx[27m[4mt[24m[27m [27m-[27mo[27m [27m-[27m [27m|[27m [27m[32mp[27m[32ms[27m[32m2[27m[32mp[27m[32md[27m[32mf[39m[27m [27m-[27m [27m[4mo[27m[4mt[27m[4mw[27m[4m.[27m[4mp[27m[4md[27m[4mf[24m[?1l>[?2004l
-]2;a2ps otw.txt -o - | ps2pdf - otw.pdf]1;a2ps[otw.txt (plain): 8 pages on 4 sheets]
-[Total: 8 pages on 4 sheets] sent to the standard output
-[265 lines wrapped]
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[1m[31mo[0m[39m[1m[31mo[1m[31mt[0m[39m[1m[31mo[1m[31mt[1m[31mw[0m[39m[1m[31mw[1m[31m.[0m[39m[1m[31m.[1m[31mp[0m[39m[1m[31mp[1m[31md[0m[39m[1m[31md[1m[31mf[0m[39m[?1l>[?2004l
-]2;otw.pdf]1;otw.pdfzsh: command not found: otw.pdf
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[7mls -lh ~/otw.*[27m
-[K[A[4C[27m[32ml[27m[32ms[39m[27m [27m-[27ml[27mh[27m [27m~[27m/[27mo[27mt[27mw[27m.[27m[34m*[39m[1B[1m[31m'[0m[39m[K[?1l>[?2004l
-]2;ls --color=tty -lh ~/otw.*]1;ls-rw-rw-r-- 1 ethos ethos 24K Aug 31 09:45 /home/ethos/otw.pdf
--rw-rw-r-- 1 ethos ethos 16K Aug 31 09:44 /home/ethos/otw.txt
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
-]2;ls --color=tty]1;ls[0m[01;35m2025-08-31-093103_2880x1800_scrot.png[0m  [01;34marchive[0m  [01;34mDocuments[0m  [01;34mMusic[0m    otw.txt   [01;34mPublic[0m     [01;34mVideos[0m
-[01;35m2025-08-31-093116_2880x1800_scrot.png[0m  [01;34mDesktop[0m  [01;34mDownloads[0m  otw.pdf  [01;34mPictures[0m  [01;34mTemplates[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[1m[31ma[0m[39m[0m[32mc[0m[32ma[32mt[39m [4mo[24m[4mo[4mt[24m[4mt[4mw[24m[4mw[4m.[24m[4m.[4mp[24m[4mp[4md[24m[4md[4mf[24m[?1l>[?2004l
-]2;cat otw.pdf]1;cat%PDF-1.4
-%Çì¢
-%%Invocation: path/gs -P- -dSAFER -dCompatibilityLevel=1.4 -dWriteXRefStm=false -dWriteObjStms=false -q -P- -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sstdout=? -sOutputFile=? -P- -dSAFER -dCompatibilityLevel=1.4 -dWriteXRefStm=false -dWriteObjStms=false -
-5 0 obj
-<</Length 6 0 R/Filter /FlateDecode>>
-stream
-xœíXýnÛ6ÿ_Oq0VÌÆ&™¤(Ér‘­íV¤éÒ®M4ƒš¥ØjEI•è%Š¾ÚÞe{‘‘”,K²ãºY3XX<Ý<~ÜõÉÿª1Á\{§aÅ…ª™1xâiÃFB–c‚w!1è²›mˆÚÇ0mbÇ´þé,2÷s&@±t4ÒMÑÅSsLñWÈ›&ÞÓ“½+æL'–=Kã4ïçýrÐáoÃŒï¦Æ¦xÇZˆzðÝÇ?½xyzÐÃŽÕƒã£—OMÝÞùàK­?L0‡=Oâ°1¸ÍŸÄ¼UÇÏ…©”Ë™“‡!_¤Å£·~?L?,[çáE‡ãáPÊ†‹”…C¥;œUë‚X½"„ÊçóÕÚ˜˜ýùBŸzâw¼"ÕÄ™ìlVáIí¿$¤ý!ß)“ƒ–’³>‘”É>”ŒóÕÈf9”ËšÛÔÙ«”|‡}uO§ê)ž?ˆß·x1H‚ Dr·%&óIV@Ê/~ÅAOA‡÷$.)ù‚ª—À´¿oaŠßâHLÉ%zÙ§¨mu«U†Z‡²´¦%&e¼!»lÐFƒnê\uù´9ˆÄt˜^rÒÖèzëí}×2±©Yó¥hÙ)äFÕ ùr±eâí¡Ó
-SÕÄªyWS®°+ÔµÉñtòÍj“cÑÛÂØTq@9Ã^û]:‰Tþ^,Æ0Kó“ ’”ÃEºL‚1ørU˜Ù
->+îcÉÿ5–`KJ¼YÓ­Ÿ5š5è¸­´UMùS©º’…7a‡ˆ„Ösž¸ÍTl"Ç D¤b/ËðL&ËN²v9È¬Uj8ÂfR]¤eÇ@Ä½Î²Ázƒ…VÜ Ãí—M^/f×_xé°ÎÚagqèçÕQ«é‰4ŠÈócÖ‡èã·rØª.ø¼Nu'®zï|{'òb¤à‹:r™>×GÁZçlº‘³Vœe—£0ƒ½´^¿-I»:âÛ“_~ËmÉ¬‚©Ò^¸ÅU¶¤¶î
-TY,ãÓÃ‰”CæÅeš"‡å vt,VnŸ´=€ÉÏiþ6Jæëmlˆüˆ‘‚Z„~æE©¶Ë¤ìYÄÇœgâÀÊÆÈHó¹:¾ zžÆ±D?JNBáôEX›Ê€]ø;ì&²°ÎÂžˆ™I;2öÖŸ‡G/Ã ô@v½#±kIùSO{-b3Æ0/4l!¸ÔáR—`5êZE6Š€ÕoTêÅÚ©æHm©FP­&e¦+îiy(4nº¸a"’Á¨uk³Lƒ¸Ä$RÀ´Iÿñr&þZÝÔ@\Ñè@7i÷_É‰àáhpî=—`„ýÄOäŒ2©T˜øj–M+-l»†åîaéö+¦cÈ"@M$®˜¦ºaî\èNÒùÈ¦Ü¡Üþ7ä{'ÀÚJÝ'Ë(V¸A˜…I&³kày®Oó]kXûª4ÃÙ	v›»\PˆÜ˜Ï£4ÙtÚ›U>¥Æˆãxµ[øy(â7ðd7î¯÷UÊéQ"œ8(êþ:Vó¢ül¦_¯«ûc¥NYl)wn_ê¬óf¹³Ñ/*›¤lŠVS¡ÅªQS[}+9iUKEKe^6‹ió£Æj”ÊÌ5gV6yË´¬eSû«ÄõF&1wWb»v­Qžu‚Öî²a¯ò£O…àÿL0WåÁÅ%N³úáÑöêGéýãò‡šÖ~õ¹mý£ìÜ¿ Úb«*ÑÇ2\S™Ú•G‰ü¬þë5¨Ë»ca%Ó-Ó6ˆ´fÒ?]&bRË‚×óèŽ3‰•íã!PÛ²F†]›.ç§l­ýÍn9endstream
-endobj
-6 0 obj
-1388
-endobj
-19 0 obj
-<</Length 20 0 R/Filter /FlateDecode>>
-stream
-xœÍWYsÛF~ç¯À‹§ÒÄ\íÁSyJz¤í4i)íƒlghq%³æ¡,)»êtúcûKŠ]RŠ,É´Ž¶eb€€»À' „Õÿšë8³(L­O3o¡¹Œ3x9´zï}¥®/`8AA¶Vó\BÏîáq†™Õ'~ÝáoóemýduÞË(Nò)”UTIHòI¡²¨JŠœô¬ûÕ>"\àƒO@‹Ó›¢¬Ê±Jf$%D©ÂO, º‘Ë{YVp'U‰_€‹£„º„ýOÊ©Í.ºdÓ@)+¨
-È¢|¥é"Ð4•±‘ü¡~Bü}ýx5	žD|V6Ï4{(±œÉ<–ù8‘å¥t¦ få¼JÒoÕM‘{ûÅ\É,š&c€û8™L|g0ŸNÑAÃ,ßFÓæ SUL&x¹¸©²ñTÌ/T‚°Ð–19IÒJ"Š?!š•Ëó;.Æhi=·ƒy–EjÑßÊÐ‡ÙT™œöžÃZˆÀ;‡÷2+î–koŠêtõ›â>O‹(†2ùCö!t)Ü¾¬—è–Î¢ŒeÜ÷Ü®A\$)¼z	Ñ]”¤Ñu*W`}ƒJYdK¨Ný’žÁè×BÝâÇ/MWRõR”T:cÈH¸A
-!iþ±Ú³ÇéüJV}†Y«fý^ï6J72O ÿØª0!îeQ’C”Åž³ƒ0˜`†·‚b‰J8†ïrÉBñ$3b›
-KÀüÀå5\A„ØF\poˆ˜ø–r#Ûk®¸åÑ³Í´<µ™løÅø±i\…E–p˜P0^‡e;L J±ÒBA-Ôk®GÇÁ˜öN€³€¾…BMÛ wÓæ–õÂ\âÙìÙ53yîN° ‘6šœ×L¨Aè¾¡½{²ãîŽëaé7§40GntÚæ³<›<ÞG!'t; ¾N•k,0fz 2âP¦yo–fíë"ÏåØDHŸ—‰R…"…[u2Ñ®®bõíÐz‡Mc0--†›û½EIè„œ…ðÊrB—8ÔîPÈVOŽ–K­åki-ÆéJL¯‰{%Qâ±&‡qìr‚Ž+ÑˆÐµíÍ¨ób>ÁÎSlxÂ¾ãtm·^ç-ž¥ zA÷rø£6†)aÚ0ÜGcÃØêÕ=©~¯td¼\Gé2/$HÁ§‘¶·cŽ Ø‰½Ú±&}gýØÓtô–tÜNT;'M7°d%á„Ûa]‡Œp–ìà—®X¯1ÏÄrÓâ†±ìà-Ëltë€ßVÕo¾“Õø{¦ºÓÀx‰½¡ãåEw£ó¹ùÚÚs'PW£ oÙ‹LòÏ”¼KŠy‰½â</ÍëÏíØö¡L6Ú§‹UCGUt•t#¬a>²äžµ,2ÚºÚªË[uy«®hÕ­ºN«®Óªë¶êº­º^«®×ªë·êú­ºA«nÐª¶ê†Op£=ÐÜu8H<~óâD!™…ƒŒçJÉ¼z0™:é¼Ur©æ˜çšøÚ\Ú[ÜÿÈˆnD?¢:‰åµ«·]^NøœNô•›²§Ù[UL•,Ë>Œ ê&Æ	ÍZ˜éW­{Á~Ñþ¿Ãm^‚Ù+Z\Ó6÷œM÷þ~m_ý‚ÿ¿?èæKñ}ÇÏ„ãƒ¡‡æŠ¶¹=°à|nrÑ=„ÁÁÓ6‹í#7ÚàúÛŸ¿”€/&ðC¶¬z¢ mEÎìéÍÄ²^ã;r¨mnæ±éS.‚&ÿZf¡Ë›ÿ;»í6MîõÚçÂÛœ›/:MÆª9œ¿ š;ùæ@ê¼>!%'ý6m6µ½g]ïQÏüÀ:^òBÛ\rƒoÕG×žªî¯ÏŒvÏŒFîä¡Ñî~S£sìÔhpî?6îÀj[ßwI(TÌs’k\/ÌThû.3k¶+<Â5šQg0ÏãhèÔ¼¬V~umßŒl‡÷œ.¢n@¼tíŸÁþÎúrN'endstream
-endobj
-20 0 obj
-1486
-endobj
-24 0 obj
-<</Length 25 0 R/Filter /FlateDecode>>
-stream
-xœíZÉrÚ@½ÏWôÅeQŽ†Yµ8§¤*•ÄKâ…ä‚±ƒLH`-qü»ù’ÌŒ‚]$ãmDMÓô“^wOœÁˆ~\ï;1"ÐCçˆš£p½ëÄð¶ê>˜éshœ)C
-®þ˜'1žæcî1	9¿wÝã¯êùaƒZã;2_,|hì gU~Í ¶n®À×üÝ´OXñVÈgŽ›¶ü2·;?úÃŒÓ<ëR8r8æ8pùQ0ÆÚè¸é7›"|MÎôžÅê•“x/õ’(M7¡	L¬µŒ™chÎ9Úçj/üú£½Ø÷‚zû!	d¸s¢Nfx“D?û£<\B>LÍá¨šUí^m6N‡ö’hÜNô²‘2Ôóš^uîj“ºÆÛS‰=—nœÒ“vÜõîF§e8Xþ?VG½µ$+l-ãSñö_½Ó´SÅŽnNÑ®TÉãÌÒí)Ð­:êÕÈV¿óËªöy«´ÆÉÜÊ*\ea
-+#D-‹$¦jáµ1ŒsŽ«XîYÆ?oÆ/ºZ®”Í¢ÖÍ"®njø/UË±Ì¶Ì¾ÔŸ2»êvÕ7´Ï‚Kò‹nÿìlnç®±9¡˜aæ†•z…°?mF=6ÔŸŠ&Ué½Õ—LþèÎt•A“^ô®öQý€Rè¥ˆJˆàP„Œ†ð‰PbA<`‚@<y'´Ý "_[k3F&fzŽ‡”@)‹Yzeàà†'9f¡rÂ™žˆQÓy“÷€ÓWÀ“n
-Qs¹zÎž®²ÔZ-íL€Š_ù¢ê¶ÌWÎ]äŒ²œýÊ´gPNG)©bˆt¾r(8ÁÜãF9,RƒJ	·ÄC›™õãE½[z°¸À]ÿÍÌ"Ï,bEROZqäyÏ¢.>Xí“žS©w•‰3Ò¯ŒRc/¸EmQO¶gã‚^:•²Su|™}¹;Î“(n÷úÓ]9qË©UžU«^
--êÇ„zÑËÅEâvŸ™âEä³§}2_&…,êçŠºâÝâ»	Ú§^(,õ§,ï¡ÿc„À™2§`þ´ÎÐànÓØ--t
-.‹)^U¥ÓÄY\ê¼#V#Æú¾Ä!7¡:{I¨ïÝœ^‚þ:×—ÔÌ¹’{˜éhšÎa>ì¶/AÊÓl‚«æú~¨3ëðº¨	OÊ {“Ð5>û>úDz¿Šendstream
-endobj
-25 0 obj
-901
-endobj
-29 0 obj
-<</Length 30 0 R/Filter /FlateDecode>>
-stream
-xœí™YoÚ@Çß÷SÌK£ÄËž>èS+U½’6jœ Ø7Ø&ö:4_·Ÿ¤»V@¹–ªQ² Ù;ü=?³;Ã9LØ÷Õ~!#tŽhó-\í¼í¢ö~&D†º'Æ‘‚oHLD …˜LB7CÞŽßûðËl¾­Ãhu æÀ"„îv#¾Ý™ÑÚ@ÞÚ‚µ†\ïØpÔŽz¿¬æý#GÐK¢^ö’DÄ¯É‰Ý³Ìl9ÉvËbTªªê@!{uÔø4cqÉ3>“/óþqÔŽz-Ô_WÈ?³t ´NóÔOJ8ôh‡bf}‰©YWlæYÍ1=lÆØª-“²‚Û)Ë]kGí¨õ:©¿<²ìº™âêÉ°¯•_ð°ßœö/ä¤¹Õ¬tYtZäœ%èSeáÐ¦ªA™Nt“÷nˆ|Ô0.Š³
-Æé™‚¾Ëý\éiQžA¥Ê‹t ¶`ª@åýã±‚T/›:#âRçÿ¾±µ£vÔwÅ+ËÛ+ÊIUët\™U%ÇG>_i‰ç–ßuÑjïS
-£
-QI`ŠŽEÌhï‘ˆ%$ &dóOÂúÑ
-­·ucdîfÇxL	”Êx<Ô>¤"ÝèJŽYlD8³J¼7õ8ÝF˜„¸#DËçÆ¼ÝþHAØŽZGÝOVL€‰ßhÑÈÔ,4bÝ!ò
-=Åú§¶-Ã†òz”’1–ñ‘>Þèœ`ðY£s½Ý­^ç“¿—^JÚqÔŽz±±ýhp5ÙXÍG'œh…	çI`¿Ì‹í¨µ£þ÷ÔŸ÷ŒûlR5Mc©ÄO7WkÇwþßr×ÙQ?uêY-÷`'Xx½ˆ‹ht×øýu'¸\®Œ‹þ´Œkâ\¾Ž»'Ö¦ÒC‰cÞ„êí–i®ÕŽ/ÁÎ%mÆ|ÉÌl4‰wPçÃþ%¨ºÒs®–†QdÎ¬'Ú¢e*Cá`ºåkbßC¿ßIn^endstream
-endobj
-30 0 obj
-743
-endobj
-4 0 obj
-<</Type/Page/MediaBox [0 0 595 842]
-/Rotate 90/Parent 3 0 R
-/Resources<</ProcSet[/PDF /Text]
-/ExtGState 16 0 R
-/Font 17 0 R
->>
-/Contents 5 0 R
->>
-endobj
-18 0 obj
-<</Type/Page/MediaBox [0 0 595 842]
-/Rotate 90/Parent 3 0 R
-/Resources<</ProcSet[/PDF /Text]
-/ExtGState 21 0 R
-/Font 22 0 R
->>
-/Contents 19 0 R
->>
-endobj
-23 0 obj
-<</Type/Page/MediaBox [0 0 595 842]
-/Rotate 90/Parent 3 0 R
-/Resources<</ProcSet[/PDF /Text]
-/ExtGState 26 0 R
-/Font 27 0 R
->>
-/Contents 24 0 R
->>
-endobj
-28 0 obj
-<</Type/Page/MediaBox [0 0 595 842]
-/Rotate 90/Parent 3 0 R
-/Resources<</ProcSet[/PDF /Text]
-/ExtGState 31 0 R
-/Font 32 0 R
->>
-/Contents 29 0 R
->>
-endobj
-3 0 obj
-<< /Type /Pages /Kids [
-4 0 R
-18 0 R
-23 0 R
-28 0 R
-] /Count 4
->>
-endobj
-1 0 obj
-<</Type /Catalog /Pages 3 0 R
-/Metadata 42 0 R
->>
-endobj
-11 0 obj
-<</Type/ExtGState
-/SA false>>endobj
-16 0 obj
-<</R11
-11 0 R>>
-endobj
-17 0 obj
-<</R9
-9 0 R/R12
-12 0 R/R14
-14 0 R/R7
-7 0 R>>
-endobj
-21 0 obj
-<</R11
-11 0 R>>
-endobj
-22 0 obj
-<</R12
-12 0 R/R14
-14 0 R/R7
-7 0 R>>
-endobj
-26 0 obj
-<</R11
-11 0 R>>
-endobj
-27 0 obj
-<</R12
-12 0 R/R14
-14 0 R/R7
-7 0 R>>
-endobj
-31 0 obj
-<</R11
-11 0 R>>
-endobj
-32 0 obj
-<</R12
-12 0 R/R14
-14 0 R/R7
-7 0 R>>
-endobj
-37 0 obj
-<</Filter/FlateDecode/Length 171>>stream
-xœ]MÂ …÷œ‚@«F›ºéBcÔP¥o/?­ï%Ã¼G¾aýpÐFÊÁ©Dj,ê ‹[ƒ:Âd‘4-ÕVÅm*®fé	ëoÒ¿?h
-€©ó]ÎÀž‡syijG9‹—
-‚Ä	HÇ¹èŒPÿ­ÚZÍ–<^DçÉIwQÄyò\ßƒù§Œ´Pµ† wáÊ<áwšw>·hùs¤V³
-endstream
-endobj
-9 0 obj
-<</BaseFont/HMKMKJ+Courier-Bold/FontDescriptor 10 0 R/ToUnicode 37 0 R/Type/Font
-/FirstChar 72/LastChar 94/Widths[ 600 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 600]
-/Encoding/WinAnsiEncoding/Subtype/Type1>>
-endobj
-38 0 obj
-<</Filter/FlateDecode/Length 364>>stream
-xœ]’1nÂ@E{ŸÂ7À°öHhÒP$Š’\À,ëÈ¶eL‘Ûçÿ¤Hñ-=˜až‡YŽ/Ç¡_ÊÕû<¦Ï¼”]?œç|osÊå)÷C±Þ”ç>-Ò3]Ú©X^ÛéëgÊ%
-rwç·ö’Wa«OÖ÷ž4žóujSžÛá;ûªŠû®‹EÎÿ¾
-áÞqê¥”2U…'0E˜ˆ9*ÀLì¢Ä¯ïú‚z{Ã:*À5qà†¢Ä:*ÀšØDØ-*@#zT€NÜF¸%î¢ÜÛ¨ [`£ZV5­ø6rnèÜÀ¨‘UC+C¡©ØXlÐ7½‚ñ¾&g£³Á×ält6š$’#“•ÑÊ°EÓ&›4lÑ´Iã&C\ƒœƒF.+§•c¦k®s®c¦k®s®c¦k®s®c1®å8—ãPpiàÉƒxþó¼Ùó¦Êt›ç<,ºD]/¬òß±NãÄ®)~Œ¸í
-endstream
-endobj
-12 0 obj
-<</BaseFont/TKMAZU+Helvetica/FontDescriptor 13 0 R/ToUnicode 38 0 R/Type/Font
-/FirstChar 32/LastChar 121/Widths[
-278 0 0 0 0 0 0 0 0 0 0 0 278 0 278 278
-556 556 556 556 556 556 556 556 556 556 278 0 0 0 0 0
-0 667 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-667 0 0 667 0 0 0 0 0 0 0 0 0 0 0 0
-0 556 556 0 556 556 0 556 0 222 0 0 0 0 556 556
-0 0 333 500 278 556 0 722 500 500]
-/Encoding/WinAnsiEncoding/Subtype/Type1>>
-endobj
-39 0 obj
-<</Filter/FlateDecode/Length 191>>stream
-xœ]Mƒ …÷œ‚ˆöG›6vã¢MÓöƒa!ÄEo_µ‹.ÞK>˜aÞPtýµ·&Òâœ|A¤ÚX`vK@%eE•‘q#t9	OŠî&üûã¦Ð+ßÅÅópÁ“rí‘NÁì…„ ì¤eŒ·ZsVý]Ö†Ao•pcÉI{ÖÅXrÒÖGŽb,yÂš£ÖŽJØà¬ýÕ<6çßãR¹„ 6â’¸Do,üþÁ;Ÿ»hùæ…`Ÿ
-endstream
-endobj
-14 0 obj
-<</BaseFont/RLYUHY+Helvetica-Bold/FontDescriptor 15 0 R/ToUnicode 39 0 R/Type/Font
-/FirstChar 46/LastChar 120/Widths[ 278 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 611
-0 0 0 0 333 0 0 778 556]
-/Encoding/WinAnsiEncoding/Subtype/Type1>>
-endobj
-40 0 obj
-<</Filter/FlateDecode/Length 653>>stream
-xœ]Ô;nÛPÐ^«àô¹?0^c7.I6@RO†
-S‚,Ù}fFvŠ—ÀH¤4—xë§—ç—åtÖ?®çùW¿ÇÓr¸ö÷óÇuîÃÔ_OËj»§ùö™tßÆËjýôm¼üþsénèÇ{þ>¾õõOßè“íý™ù|èï—qî×qyí«ÇÍ¦=mÕ—Ã_íýþÄtü¼u‡[9›®ˆ»¦AÜ1zÓ :c4b0î›qÏøÐ4ˆŒSÓ NŒsÓ ÎŒ‡vŸÝVÔ›ßvÆcÓ ‚ñh(h*i,iÛ¦AÜ2¢¯©³ñ§ÌšÑQßD0õM#Á²i“±š±3@Î4mlÄ‘V“×è5à8ˆFàL@#Ð€3@Ît8Ð	tà\@'Ðs@Ît8Ð	tà\@'Ðs@Ît8Ð	tà\@'Ðs@Ç2]u.Ôauy^‡ÕåuzV—×éXCÞ 7€ƒÀ .¸0àBÀ 0€ƒÀ .š((
-Ô‚„@ý!HÔ‚„@ý!HÔ‚„Ä~R;Jî(Q?EHõS„$!Q?EHõS„$!Q?EHõS„$!±ŸÔŽ’;JhR¢¤(¡I‰’¢„&%JŠš”()JhR¢¤(¡I‰’¢ÂBJK).¥ )‰Š¢‚¦$*Š
-š’¨(*hJ¢¢¨ )‰Š¢‚¦$*Š
-š’¨(*hJ¢¢¨ðÆ•Þºâ[WÐ”DEQ¡~‰P$L¨?‰0‘ÐÑ·«sgçŽ¾]qåiøuìñ`ä	ûu óÇõÚ—›Ža³<^OKÿwR_Î>5`Vðqd›
-endstream
-endobj
-7 0 obj
-<</BaseFont/SRTNYK+Courier/FontDescriptor 8 0 R/ToUnicode 40 0 R/Type/Font
-/FirstChar 32/LastChar 227/Widths[
-600 0 600 0 600 600 0 0 600 600 0 600 600 600 600 600
-600 600 600 600 600 600 600 600 600 600 600 600 0 600 600 600
-600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600
-600 0 600 600 600 600 600 600 0 600 0 600 600 600 600 600
-0 600 600 600 600 600 600 600 600 600 0 600 600 600 600 600
-600 0 600 600 600 600 600 600 600 600 600 0 600 0 600 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 0 600 600]
-/Encoding 41 0 R/Subtype/Type1>>
-endobj
-41 0 obj
-<</Type/Encoding/BaseEncoding/WinAnsiEncoding/Differences[
-45/minus]>>
-endobj
-10 0 obj
-<</Type/FontDescriptor/FontName/HMKMKJ+Courier-Bold/FontBBox[0 0 585 635]/Flags 65569
-/Ascent 635
-/CapHeight 564
-/Descent 0
-/ItalicAngle 0
-/StemV 87
-/AvgWidth 600
-/MaxWidth 600
-/MissingWidth 600
-/CharSet(/H/asciicircum)/FontFile3 33 0 R>>
-endobj
-33 0 obj
-<</Filter/FlateDecode
-/Subtype/Type1C/Length 437>>stream
-xœcd`ab`ddäuÎ/-ÊL-ÒuÊÏI	hÿfü!ÃôC–¹»ûÇÝŸü¬?äxzx»y˜»yXæýX-ô½Ið{-ÿ÷JFFs¯ˆ¡AášÚÚ:Îù•E™é%
-F†&
-I•
-P—ÔâÌô<5 £,5'¿ 75¯Ä/37©´XÁ7?/_! Xd?ªÂ8ò,````òˆc`Ðd°g`z–…á%£ü7|?ÞtÏÿžö‰ñÙw†ïIß˜h~¯ý-ÜÀ^ÔÝÔÕØZÝÔXÙ]Õ]5¹zfÓÔ–™‹»9¾ó²í\<gÝìæYµÓä&5õæwst~ÿÅ¶¶îÜî•Ý`q¨°[QwcgS[uccÔ”Æi-S;—usLû-ò;é»È4¶%ÝS{¦Lœ=uêìîy`ÍS&cÓœ;·rm;Çï_@—5v5Á\V2sjËŒŽ%`—íZ„æ²†ïÂl@O~ßÿ#Iô;ëoÁEES[vK®^ºdåœ¶)åÇ}/ûó»¬¢´­±»F2giÑê…S'.]$ÇW7ãÇÛÙlŸ¸¾3pŸÝÀÃsv+/ Þ˜æŽ
-endstream
-endobj
-13 0 obj
-<</Type/FontDescriptor/FontName/TKMAZU+Helvetica/FontBBox[-8 -218 708 741]/Flags 32
-/Ascent 741
-/CapHeight 741
-/Descent -218
-/ItalicAngle 0
-/StemV 106
-/MissingWidth 278
-/XHeight 539
-/CharSet(/A/P/S/a/b/colon/comma/d/e/eight/five/four/g/i/n/nine/o/one/period/r/s/seven/six/slash/space/t/three/two/u/w/x/y/zero)/FontFile3 34 0 R>>
-endobj
-34 0 obj
-<</Filter/FlateDecode
-/Subtype/Type1C/Length 2556>>stream
-xœUiTW­²éª
-APÊíî€aP„¨¬¢(‹ È’°C€FÙ´˜ ãúP'Fƒ1(‹.‰,Š0Šb I»E¶†Ž¨DšùªÏkÏLÉ™3çOWõê½ïÞû¾{IèM"H’Ô÷OLÏKÌI{³áÍI~æ$~¦h–k×ib~–DÈ@¯|¦þc¸5
-Œ f
-!"É…Ë¶[‡…¬ckkç•¹A‘•šœ’#srœç"‹SÈþœ‘y'f§&ËeVÂ /1=sCF¢<gUjF\n¶,4Vžýß…ÿßVA|°Tž™•“»)vsœ"!1(95ÔÎÞÁqž“³Ëü²…®‹ÜÂ‚XM¡Ä"Œ'ÖËˆÂ‹XOø¾Ä<ÂŸ \ˆÉ„1…˜J,1àˆé„	A¦„1ƒ0',¹=ÂØB\'´dyœ|<ÉhRÙ¤‡"{Q®¨KÏZ/Cïwñtñ	ñ5q§ø)åI}LÝ¤ÝétºYÈ¸1IÌð{¡ïeÂyC­*HïXBòrÈäºq¦ø…k3ÄØ€ÂGßeˆ_PJÈÃW*o¥À Ä†|3*áCî§”w)=ûá@Ÿ	û]_ÊéJû¡–fÛÿÕÒ5ØQ¿R‚ÿÝÇËhu@‹•„uô@ÑË˜!ZXŸ£äí”d¥šÕ"8ÅWrØÚÙ{cŸ!K˜ÖÃoa	Ìí¤…žÜÓO<O	öt°Qì-åˆÔ›Kv•ß@˜°?ÞûÁ)ºŒ¯· ½‡ YÇýù;
-ÌÃP\Z¤Ã=Êï™(ß †íjÀrû^ûý€'#.^i³¨6¦dHU›È/ÏCIfë?]“x´,O²íØÎc»ªgê žÜ³¦ýí¯T_±<%u?á÷­¼U™5^9×y·R¾f¿ÄÎçÜçm:É>ðÍ‡Ù®x¶·ßÏ:V)o/;¾ÿ’.úó=_ìÛ‚˜ä‚#URÀƒãÝãgÜÞû–t›°›ù¼é|©+n¢ÙzY¨ËòØKw$<íª³¦]ÚC—°ÞJÔx¦ñ³Œ6Ô&‹Cò×¦ƒ=_*žKYêìfóvâ©¿éìdÂÀ;]©Ð¯x‡?tâñŠ¼£’¬UÃÑ>¡‘Û¾w7Ú…ùgÇNKáGzÄ¯	sž«r’%Ù
-2ö®eú©C?UŸU!æáåÌi.½/Y±Ío;ÖßªØ¶mÕÆôhäÇØu¬þ££¹üF«äË°Ó97ÐqôõþŠC¶?eîØ’•“š÷ÙzÄ$žo¾YY¡9*.*>Xq”Îi‚ÔÃI¼áK6Æ!ØBÄvxá#8—ˆŸQ`Ñ`‚£Å£ÔÕš>Pž%Æ7úàºÚ„º¡ÍàÞetß¥ÙÆU—šå÷ÍA¢1,Ïo±ÔkÝ† )œ¥Á
-—r#mnx*~?ÐÍÑ)¤ŒÀèVÏ°T ƒå½Úi‚¤¦Â9âuvx† £>ºò4×ü$E~
-2ËGŸïWd–ÐÅÛ‹w—¡3èìá²oOŸ8Vöm-äkMÿÝi5\¼ÓÈïà¹â“TJsh…Ð…30‰Ý±Ï &Áâ—¦3íõRv«ïoác9Í­ÅØXÊ~‡'»;;¬z†`øãã_%ã¶ÿNpQ’üØÆ¡žW·Ö¤º_Ÿ#ìi5‹ðR¼TcÖ`Ð×	T©t!•ã•ìÂQÌÉÌºMçþ~nßuf'wh´õN?bZ—Ï•NdDm/î%áQ¬„Û(¨[¨¾¸æbÝ¥è.³Ü”x¶ßx—1BñæzpÂéáæHw÷ðH'A¾f,ï‚©c¾bã¢.*MØ™¼µ åG4;z'6ºb¹9f±>^ì\º¢>\ZÝ”uÝAõuÌËÖZz'U´í, ¾²Q®
-)ÑO§¾¯½Ôx¬#l@³é8;jZŠÍ0»n©Ëüˆnà`ZÓÃA!1²Æûéå[ãŽ~WA÷°Ê»êJû(ö•6Co¡E?%°Íéå_©È®žñ#|‡šö|óÙ÷ñýê°‘ ¤‹õ"lêÔú<K
-Ë#G²/'¡3”Ÿž+Ï‹.Bî(üDJí†Ÿ_,¬²¢ÐÿèÇgã›|ûS@„Ôèç’†ÊÆšóí5Mh‡õ¼¢ÑÔùdZja´7þLûZÛÂ±ä@oHõÎ²MA#ßm›¢ö2‰tÇÞš«h€ú¯y„
-ÿX¾¡„›J´‚[B3á‚wâ›hþtöyEUTh“¹åhuFÒúè9¶Ï`ðžÌØô
-ZmYîÓ¨IRSÐYÄxè=k°Áëp\´íû¨—	‘£Ï¤ãw 	EC"($Òi“ƒét,Ú´ÏT0+Æ¬poZq‘FÄPsº÷¨ÃmªÕÍ/[L_Ü¼ö £¶ì–ØšØêµÇýÑ<äŸ–˜•øEÌ^áŠ 4~y¶èdyÝ?Ï4#¦§-Ø#øÓˆ•ÉR‡0l½à¿ØÉŒOŸ°:?¤4æ¥_	{6Â ÷5UE=¿ãâ¸f£MTã;¥B\I,N«ò¹—2*D¶ÕÓ!˜õ$¥iÁ9);Ðqæ»¦û3`Š[76Ç–¹ã¹{$CTaÝÁS_—•\®;y1ª†(uŠô„-Òì‚´Ý«ö1ãäÁá	=ÿðâ°×x½}dÁ§Ð¸[)¶§áú#gQ¿Œ
-Ô*pP“¼» Çm§›D…ë¦‹S—¿/nAÌ³Ö ‹ƒm=£jzòÐEÁG2K7^
-û%½G mùòØ€Ìþ9ž¿-#NZëÅpuBèP	·8yåT›ïâ/p[@ÿ£.L ä“ã½Ùa„‹=¯¬¨º.„6˜¾‚ÀlÞSÌú¬Ùž(-¿–¯Ðmt%þFAwn yµ­ãêån‹ï=Ñ´ÝV.:?qÿ¿¨Ñ»ð,…=ðN_lŽó™§Tl†µà©Ì¼š°Ee\¥	ÐÀ>áaÂŽòæüTîA}y%êd€ry$äúTçÅXì[žr?ZÂ¾v‹‹rŸMGˆ²ßž€iO|ë¢Ëv3PÌu_ñò[³tId}W×Õún)ûßÒj^èâ8ukÿ`ë­±Ô«%è£$«5Pý\Ô‹¸b¬ÿÐôuU×¶×ý\2„À¡BûSBkàyÁäæ6VX†Í4saÚÝ¦“7ë¥û°¨µ
-DŸ\Êïb`ŸËõÞöµwZè² ¼íù¯­½ÒqSÂ½7$LŒùé„1ùR½qæ”ó¥Ç ¤(íê±þÈûª}G&Ä ]
-endstream
-endobj
-15 0 obj
-<</Type/FontDescriptor/FontName/RLYUHY+Helvetica-Bold/FontBBox[0 -23 766 674]/Flags 131104
-/Ascent 674
-/CapHeight 674
-/Descent -23
-/ItalicAngle 0
-/StemV 114
-/MissingWidth 278
-/XHeight 549
-/CharSet(/o/period/t/w/x)/FontFile3 35 0 R>>
-endobj
-35 0 obj
-<</Filter/FlateDecode
-/Subtype/Type1C/Length 472>>stream
-xœKhQ†Ïmr§¢ã¤ÆÚ\Á1}à£6¤¤(5Q¤RÚ.S5š&¥«Y"]TG\DiÁ…¥uQA²ô¯µ›ìT±›Ö¢”øßp³°C]»ûþs8ßÏaäm"Æ˜/™ÎN¥íÌ¹TG_>{Þ…ä.&w7É=Ç®—êÝ\¶êäèG÷>’å˜ö£èÃdy‹œ(…†ö·µµÏO'3cmqèÀÁ.1Z6"ž.dÆrÂÚ€©t6?1žÎÙ§3ã£W
-âl*Wnó?ù¯èÿÔDÄóöÕkDgh†i„|¤m¼K^:E3ôšjLÇ²!aƒã;8{„oå3SE-ÅT¿JüP„D‚Ð‡“¡_ª7pGqóÃËÄ^k¨ÿØÑáêúú«êû€»†ÚWöyS±dö"¨„
-&:«ê‹Öý4µöxáî½¥ÖoÍ×oMß¾ál¹psöE Ï?6õ‡Î¼œ™g²¾²ÂUP‹6Œip%\:âRPC{£Â±O[‘þO?7ä›Í3 ‹&â(sÓºTä0".!®Ê*©9bÚb«*æ’e{‡°—`™*¬,„5Ã^•ûHÎ]~ ¡e+ÛÀgu9};Ño|Aåg
-endstream
-endobj
-8 0 obj
-<</Type/FontDescriptor/FontName/SRTNYK+Courier/FontBBox[-17 -250 618 825]/Flags 7
-/Ascent 825
-/CapHeight 575
-/Descent -250
-/ItalicAngle 0
-/StemV 159
-/AvgWidth 600
-/MaxWidth 600
-/MissingWidth 600
-/XHeight 433
-/CharSet(/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/R/S/T/U/V/W/Y/a/acircumflex/asciicircum/asciitilde/at/atilde/b/backslash/bar/bracketleft/bracketright/c/colon/comma/d/dollar/e/eight/equal/f/five/four/g/greater/h/i/k/l/m/minus/n/nine/o/one/p/parenleft/parenright/percent/period/plus/question/questiondown/quotedbl/r/s/semicolon/seven/six/slash/space/t/three/two/u/underscore/v/w/x/y/z/zero)/FontFile3 36 0 R>>
-endobj
-36 0 obj
-<</Filter/FlateDecode
-/Subtype/Type1C/Length 6366>>stream
-xœÍYwXT×¶?#Ì9GÅÆxÐÌ!JT¢Fb—Ä[ ƒ€¦ÒûÐ†²éCoVbÁ>cb‰ ÄX5Å\cÔ›ä¾u|››ûöÌ(gÌKî{ßûë}ŸòÁœ}ö^å·~¿µöH(Ó>”D"aÃ"·nÜªû}‚0\"Œè#¼e‡ó…ß_^•
-r3*×L‚ÌL™é¶£Öš1CàÚ ˆL™J$Ó]¼«Æz¬ð´7n¼cØæØ­×oˆ°™dÿþ›µ±6¯žØ8†o\j3šü¶9$04ÂucÈÚÈp—°Ð0›en6+×Gûm}óSqÇÿÛE¹:/ìÇÍNÎ[ç‡/ˆX¹(jq´ßÇ1k—Äú»Ä¸.]·lý†ÝÜƒ<‚W†xŽ[=ÞÇ÷½5íßO˜49iÊÔi6ÓgŒœ©u°ýàY³Ç>š3ÁîÛ¹Þ5’ZJ¢–Q”-µœz‡M¹Qc(wj,åAÙQ+©w)OjµŠšG§>¡©	”åD½GySÎÔDj>eO- Þ§R‹¨ÉÔbj
-5•ZBM£\¨é”+5ƒ2£fQ¨ÙÔj5—L¡Ì)JF¥ÖPeA£$”%eE™PÖT<5œ’R#(š’S<Õ—ê l¨]T?ê*õ6õ!åARL™R‘H"%m}Æöi0i¢0ùOÓ¦·¥
-z ½…_f7ƒÙelKßé}µý–÷kï?¤bÿ'fþf;˜ˆpqà[‹þ2(fÐËÁ‘ƒÏ	rÚÜÙ|·ùw²I²®¡öCã‡îzièKn"çÊ…q5ý,\-ÖXœ¶bØAKÚ2ÚR°ÄVS­š­î[ûZw8üÎˆa#ZF<}Ëá-¥|–|¿üÞÊ†µ©·éžž"Xi`F"Ì‚%œ[IÐQŠÔø8uj=öt}™ªºJ¡Šä7ÑøA%Åþt¤"-.®L÷Ø„Æózü¤a†7ÊRëx'¾áDŸ+)¤i8Fÿ
-{¤%´áÀo4æí õÔB¹v˜ì|$LçèÈ²«îPÙ­FÜ¥;E¿%9Å’®Wë·Œâý!ƒ¾xsGåEÔ‚j3b·G—E Í,N	cÄõº®ìÕúPÈ¢o;·O”Ë¸¢õ±+ÝXƒAðÔ˜C-ì×¦#~ƒþÎËÈñvúo_u=¼¼öä¬F^&h›v´ž´þfÎå1r\FV½²ô$­ÅžxÂd¦óŒŸÇòåkgòx$®å l™vÔœÑËÊ~k‰ªÚh½|¥Ï99=^Ï5’/´ð/­	œœ9lmk‡exð¯cÀ,~yæ0Èö–ñ«¸_ïÎ;îƒÙ£G;Üzúäîíg¼Þ|AQ'Fòú=(â`”IëéÚòÒªªdU4MÄ5ÑØà‘ Ý­ÏKµ¢$R·¢×…zœq™ûŽaDçÅ€¡õ&‰É­‰"”q>–×Œ"×->Þk|B‘+ëÀà`Ž¥cÇ±SòÝ;ËªP[‘RšªÌJK“{¸xo]€XÌØý,ßÉ ýè1H~åµ¼PžS’Z…Øj•šÝ‡©O-‹KUDëb…kàm´kÖiÌ«ÁŠ æg’¬á]‚˜ÑFˆùîdO¦-ûQtÁƒnP¿‚¡ì‡‰A[qvK7bÁüéÐŸ—YƒÙ¸ðÐ¼Ã]WÉe^0{÷ì+gûIsœÆ½;çú÷ß~uão¯bí§‘<ÓÂWZ“g.Ô![h°ÈùLsa{–ÉQ£À[ä°x‹ÝFZÛãÇ	~ gž?x¿›°ŽLö¨©ïÙçý7 ZkÒïz`YÐÑ*Euµª´^‰ŠZ•(y ¶&€ÛoÏDéŸªÉÓ‘=“=~F8–ý"¬†itïÛØŸc'wiÖ’ƒ×;¡„Ä £’SããËRêùNÜeOþJI0T—¾ *“K	ºæA -³
-ÔÞ†¶áu¨&u{xIz~¶
-±•juUi†*¦’ß¼-RŒ<Ñê-“gû)1ø	}	t_;¥JÑ¹Q÷'Nž{ÓÉÕ"Bßt’DÎÁVÀn¨ƒß5ëHdÏÁŽsÃdKà]èÇU)Ô	úô;WéÎ•íþìtüÅáÐï›swZ¢÷Õó›Ö©]Š&—*s#ËcÕŠJTÁ8Ýx£ûÔæµ®±%©•¯àz‘ FÇ'¦¤$d“vnô-÷>z®×ÂM5Á{bùÆØÆô/ÓÏfìÌØ™°#©*E±^KÖO›¹pßáWT0[õºÒ(R]ÛÀSù²ÒPÉêÔ¬°œvßœ¾ŠTÑÈiw`ƒAgw]l;Øº¿­ê,zˆ:×zçF¿®¥:þ{¦>­46.5%JžÅ¬iò¨ZB^…M±¿Ã;2xHlÁájGuË•WÆ<$²!¹q'p S±±é|¦×’N¬¦ç\úäçãçÔ5'ä­Uå¨’­P¨•™9©ò€Èùñîˆ]´vÏqT°‰ÑÕ¡žvÞ Â -¨‰ÇŽ8ÈÛˆ¼mDÿý¿:=‘×£xl&òÚ	ì‰ÕàyÂˆÓÌÄª«ëñ3–£½!¨/eW¥õé0Y€0ßâžH{²˜PÁ”TDDJ¯×¹´ìè
-åa‹‡{¶ßÎŒfz	è$Î§Î­üZ.sºŒÎo?{ŠíåØEzGP°YÛ-ZÖ=~ØÚÍÝF°Ö+¦ÎX	üh‚©´Õh›ñ"¶ÓDyº¤É4~º¤çÿ|Ñg4|Øc*5PúäŽZHÖó~0ŠôI#‰Ÿ€ŸÒ¹,ûÐÛ·îˆ—†ˆEŠí˜ÛNF\Eì?¾ýúßk¨°Ââ>±³RÏÀÕ)%zIzmÂúc|x¤H—Ñ3qÊ"8,=ö†2õ.¬¤¿!¦~N?„¬G8Ë`óLÕ©6'òy‚$Îj˜l«0Éâ…Qâ¼@Ew;¸8)Æ]ž¨LOCÉl¢ZQ^˜Ÿ[P.?_s¸¤±]'B|yfiåÖ|_RS–Nâe©³¯¬ü©ólÃéRËŸ›.^ê1±ýšN\è:øüÈ	eÚ^Qxt,¶™»õÅãÃË»±·Õ÷¢èxÒŽðq fâAØK-+èÞ*ÀýÅ¢n¦qŽ‘BL'#†`6ý\³E`Ì§_“¸¾‡0&´À(â}Ä@î§ñ`Lc3 ¥Ío¬èw“°ž?”¦µrVây4Œ+IÚCO£–âŠtúu†¾ÑgH”kw"×Ï‰\ËV‰²ä~²'›¶Wï'/nÒ²ã.'Î…^ƒž½€!0Äîg<˜—µ9£¥Á¾ËX˜}€(ô»q³gãeGÇÏ&ÑW·D‘|$þÉIb0èñ³ƒ)øÀºÎ eBpãq%cè7„L²Uc· ¿%Åƒ¢Ÿ(&×†!SZj”Õ>âAÇh<·ã‰Ð.m3‚6#®(§_÷D¡îè˜” Çù7­¬^FÀø–Ýxl…¹Ÿ&Âð/®Ö¶œæ÷ÔUÖ*W¨“Ò”Ù©©òO|\#ûöÜ®¿u_ÿû_~RÄçE—¤Uör¿Ì^_¨i¤P{{Æ/´‚		Ò×àÀ=ü,íùt>#&ó]±ŠBß`ÞQ4‡á	ðHj+„°l(ýÆÛ½àÖè õT*b”íB4º>ãŸcé^Y?I>oK?¸çD¯Ô±zjñÂåœ‚ÛÒ71uA5ºš?)ê%öxíÛ¾´É‰DoÐØ1ïƒŸ†×;š??B(aî¦×5/GÃ7JsÇò²½:4½;çÖÓŸ¾ºõDÞ¥Ÿµ kv,U##‚é]‘;{æÑø¤)5NüÉ‘y4œì‰4øS40‚ðä6ðäJ˜b†Žy‚­±å;ð l	’w€
-ýO|¦ÕŒÌìŒ4¹ˆcäR4
-Íºœø«1­¾ãÌcôêv¯r`{ûócZÁN?RÜàðh"óþ Ï)¶€·Iñš’áÂ¦cS°Ä¼n´ úLá·°µ=îCV›ØCV?€	Hø×™#³¡"É®{S–UÖ’³ô±¶æK­YiäÅ9(±UêÒÊò4Ub>T<¿È±zÌåÝgä]Ç4÷q×D#iî4’º¹¯(ÍQÉÄì×læ4°o>ùÛ´n,áqÆ_ä›} D™B2Œbnux~¼x¾ÇtþAÓmƒ†ÜÀß¹5<wºÇ}ÇÇäç“ñÐ——u_C§w9Çb	S°lùŠ%¹,fuçÇÆëOdè‡ÊG÷³¾fe¶‚õIF6²ÞÀ¯‘<á»ÕxÆ:îÇëdªpr²·w$SÅßñ¯G`h½—:/ÿ çžì?Ì¿½-dÒ»öT×6nßUú:€êtSp™‚ÃÈìo4Ä½ñV:}~ûø¥k£Wz`Nš0ÒŠéØ§sŽ.Ì77^õžÂ~.¾»™ž!W|Øx\ƒ.³¦u“!8ï'RcJFá1L×åUnËfyMèÅÕ÷ 5‡â®OôÓÜ+Ì‹`¶O4Úów£¼N¤e/²…kœ3–v½îå„\ÒËõ9ÇÏ“\„zÎ¿O•É%å°`Òš:ÿ}|SdkrWòuE]Æö„ñU!(ˆ¿p•ýdçãJyN]š*±:îáI¦‰R½&¨
-FvÔÿÐùÈ+Ãað·×Ö†ñßÎ×†•Ì*w-ÝR^^™´5²—.½{óÂZ·Byn´ªw>xÁÔH8Z$ÒºØka"	ú]n4œ¸ˆ‰Q'VU—”n“Cßžõ¸/i8½A~ì{üÆuÇùb$ŒJÔü‚Nlu¡tƒÜ¡}à€§IŒ¨h˜¨]~4ö•d$=jVNìJŠI„‰‚É¤ðûhO²’ýÂè“to'ù“2óˆþ6Ò½E@(³'ø6=uá¢©Ó^}(‡ÛFÄj'¾›¬ÂÌ·“ö»oy·ìÞFú9‡§Ó½|&=Ùÿ*úžTP—«-.Ñ@ú\é.#Ñ6²î:—ö¬Æ„ÕÒkF+Æ‰+v¿jÅ×˜é*LÖýÓÝ_õ#øýÀè6¢³w…Ò²:«È8]«»‘"VUUëo#î…A	ÝrzÏ¶}ˆmÚ´Ç×îŠòªØ¸m/b÷îÙÈãëw£Û¬íôÅON¹®‰óö—‡	ª÷C¬ì?
-dEgûZtÓÐGTÏ@i7ÝAÜ.5êDŒÜþž^Ù3ß~—:Óoãy
-¤ßþùBµÎ{(y(áÀQvw£K7ìÈ¤f'd§¥¡D+ÝërpÄ¯î3ÈÈ­ÛjÊK+.½2½0±‰ÉŠ$enfA÷þ9§8¡XY†¬*ÊÔå…9ùJ•è°&pN8/'3'eZÅT&ÔU–Õ—ÉÁêu¢Šj^š¼2n—§GDœ¢m_nÄ¶âßõŽœz8¼‡§¥f+Qº*UEj•F‚#ŒÂŽ%ŠâL²ªT«+Š³ÒJuV$ÔIàæü‚Bšƒ“ nÞsð@Ð?½¶°DÓïc–ë…OÏ"2É!þ¥)WXš›‡
-Ùòdubrº2!]Ž‰Ï™iÄ/¥UR™¢¢¬¸°²X¡°“xDé	ZH_H“?(ÒÉ3³ˆpO’Û1xòmLôm `²?|Ì¡Žš+Gë››«¡ƒ¨9®>¨Ñ·f1ra§0È5vQ¨oTÐ¦¸ ä6UG5‡½Š.fU	ìÖQ’ð’ÃîKc222Hê’Ê’ËòJórÈÜw@Ú“‚­¨¨[lc*ìÖd¼¼Ê­ú½]csAMB2—ì;\Ã9Öqþë»`fuèsöÇI÷F»,ó”GoM
-A1l²ZQQ^R\U ¯¾ðù¡+ˆýòòŠÅŸÆn}ï}~Æ‡sœ]SÓ,
-v÷Ä4„y&sÁQwÖ	Íð’‹R¤ÄësýSö­¥h.ë8Ïu²ÛªšýÞòÔ"e^:b“Š¤øò¤–X^v<IƒXè÷Ó×/®øt87ñ²÷?gýÝ‡×lW®Šñ—GÄ&Æ‘2‰ØWR”_T(o9x¨ºØwÎgiPlphž­@º8B€æ0q9qI(33.2|Sd|$ŠGÙ¹žÝŽ$”lBÐ–„þ‘ái‰(E¿)^i‰üÈUÉT©»P‹¹¼²!y/Ú‹öÔ´®­/.C*]ïŸøJ¹r C Á63NFüxã‹o¦Ñ¸Ÿ·xÆq=C¥+Ø®áp¾ð-™Ñõ„Ëx ÀV¥$Y«„“(Œªûn ãK•E…yEåò#K"öÞÙåÓÆ,^0ÞÍ³¡Í›O-ÑG6Q¡HL¨HØÉk6Š?C";èÑ÷ zöý·?Ý˜ãÅÜ«/rà°SºûX•\N)R¡BÔ^ÕÞxøÄ[Go¢T™]ª,Uä!¶¢T]¾m]µ×âE[}<ø¹KÖOC¸/‹?z€ÂÀç·€ä—YÆ/Z¸p½¼x·í ºº¢ªyÿgµ-ˆ½zÖe®ƒ‡‹Ó\ï¿mÖ@þåÔ	ºï<œ…VOéÉÉÎÐáŠŠ¢¢š"9LŠ¥]=C?Å¸ö § †t”ÖO÷ÆZ¼§‚%\á.ím:†.°?ÌøjìØsì—7û\Ú$—ý²0(Ðc‰µÝÃþãïþ|)àì¢&¹ìéûPÄ}yÁs‘Ë
-ïyóVœè¸rát/û7™Þ¿¸ÒÉÉÅmÖ‡.ç®w^<{KÏ€6Dùöãâ‚0ur²ªGê²‚Ýû Øò ÅŸ}j°ÓKhe-´œ2á1—›‚RQ&r_êçí8Ûw.ŠE	ù)…)…™¹$})ŠÄˆ–¸SW®î8v†¿y©å–…yÓ` 8fÖ4,±½=íÉÕŸ}Ñ*Oïæ"üq	ñÁ£×#v‘{ÇÍ{g:®ß<î=r·žçhžÕ	¶uz“jŸDï„©´ÂÏ}Ä¾÷åè£Ý[²ë’¼²¸ ·¼ˆíbzò@fUDXúÄ:¸µuœ9~úç»ÄÊ?4×º£¡¹ykÃ:>Œ^¿%2(hGd«¤…·þŒ§›èyZÇÿŠ¿ßw¸^÷Ìu{¬š¼›S3R\]Ñ<P»®)fgÜž”ËÉ×’*2’¶%•‡“®{ù2¿Nï=¨”gW#¤,T¤çgè{Éh~£×¼¢yÌöˆÓÑ²Yljt«mÊ¼P_¹€î #1-›Âj·”Ì«X¦Ž.Œ)‹R'7 íìé3mW/œ	*’çÇ§¿î+?×]íÆ%¦¦&fÉC¶¨
-Ù£bttR3’ÄÀÿß‰æL¨ù«@$·ÁÌ60Óý”€iÛ½¶ƒä¿	üÒ8'77çùçÜ:;Ïëìt;¿Ïú”;Þ²~µïºu¾¾ëZmi=ÊãÂ$²ÒÝéÕÊ®kâJã•PŽ£¸ò‚¢b¤fÕ©¥)YÊœl¥¼g˜IHa¥(M)-ÌGy…úžÁUó=©ÙZ¸«“XC;Õ³L”va~›ëe-ÃQ|›`×3Óó3ó2‘U*JW*Ór²,³ôáA©…éêx†—YbòC‘¡LG©V(+O™—™›eY®R£"T˜[”¯çùÃ7L„Å¤$“QzzL˜#î€ô³od'–l÷W¥–ë¿©(ÌÉË*â€YðsôúµéÅ5èŸ_¤o*’”þÿâZ>æðp,INÍÊ$O,S”µ+‘ÿúÍ¯ÓUEYEúž¬BŸ¨~Uh¶uÏ	½p¤´I}ë¾Ìâ`ð…Cmè&û·:pŸDíåÉJ©³ùVF³½±¸èÇ¹O—¬ôñÇý½xg¦÷«®µXÊ­Ûª+çˆVÒr·ìØ¦+òõz
-Ti$Ï ïðF‹¥{ž}Ã>$9I "¤ÌÍÎÏà¯áþM£Ñ(42xÌl–•‘“”l¢¾Ë*Þ]+¿&€FGÏ6þ6ú„H-MBìë”LÓ@?M·Fiœ–ÍŠ?ä%œz˜u$1nÿSbÜ+‚	«an².1
-Å,13Í”!5Î„JýšN’ÔürèxFÚ>^-ŒæÒQFVFFhhjFJF©ùëëXCÕ%Fß‚"¡›’2·“ƒS*JJt]ÊîÆ’ÂZTŠÔ™µ
-VÖŸ
-?T›¾møT_ºkgmMa1*Õ7¡:ºž‚‰ÁL#y®} …Á¤·xFrˆ›%5eéªä|ê˜ºÞÃì4l‚ÇËñd9Öº´®jõ<ÞØÛ·öî#JB†2;SÉo	ß¤ðBÞ¤ÅÜÒÒ–t{`Ï€yÇw®_½XîÏŒÊr\Š¦³óÚÝï«U¹yòS¦ñ¤OA¬{`ó±3§]ÏåºzCgz’{lÔrÚþs#ØŠ“Y/¾J˜Ze»Ëim?Mÿ6•™Y[‰Ù Šú/°[Ð
-endstream
-endobj
-42 0 obj
-<</Type/Metadata
-/Subtype/XML/Length 1514>>stream
-<?xpacket begin='ï»¿' id='W5M0MpCehiHzreSzNTczkc9d'?>
-<?adobe-xap-filters esc="CRLF"?>
-<x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='XMP toolkit 2.9.1-13, framework 1.6'>
-<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
-<rdf:Description rdf:about="" xmlns:pdf='http://ns.adobe.com/pdf/1.3/' pdf:Producer='GPL Ghostscript 10.05.1'/>
-<rdf:Description rdf:about="" xmlns:xmp='http://ns.adobe.com/xap/1.0/'><xmp:ModifyDate>2025-08-31T09:45:09+05:30</xmp:ModifyDate>
-<xmp:CreateDate>2025-08-31T09:45:09+05:30</xmp:CreateDate>
-<xmp:MetadataDate>2025-08-31T09:45:09+05:30</xmp:MetadataDate>
-<xmp:CreatorTool>a2ps version 4.15.6</xmp:CreatorTool></rdf:Description>
-<rdf:Description rdf:about="" xmlns:xmpMM='http://ns.adobe.com/xap/1.0/mm/' xmpMM:DocumentID='uuid:a1b4ce39-be3d-11fb-0000-d313e4130ce5'/>
-<rdf:Description rdf:about="" xmlns:xmpMM='http://ns.adobe.com/xap/1.0/mm/' xmpMM:RenditionClass='default'/>
-<rdf:Description rdf:about="" xmlns:xmpMM='http://ns.adobe.com/xap/1.0/mm/' xmpMM:VersionID='1'/>
-<rdf:Description rdf:about="" xmlns:dc='http://purl.org/dc/elements/1.1/' dc:format='application/pdf'><dc:title><rdf:Alt><rdf:li xml:lang='x-default'>otw.txt</rdf:li></rdf:Alt></dc:title><dc:creator><rdf:Seq><rdf:li></rdf:li></rdf:Seq></dc:creator></rdf:Description>
-</rdf:RDF>
-</x:xmpmeta>
-                                                                        
-                                                                        
-<?xpacket end='w'?>
-endstream
-endobj
-2 0 obj
-<</Producer(GPL Ghostscript 10.05.1)
-/CreationDate(D:20250831094509+05'30')
-/ModDate(D:20250831094509+05'30')
-/Title(otw.txt)
-/Author()
-/Creator(a2ps version 4.15.6)>>endobj
-xref
-0 43
-0000000000 65535 f 
-0000005881 00000 n 
-0000023005 00000 n 
-0000005801 00000 n 
-0000005151 00000 n 
-0000000266 00000 n 
-0000001724 00000 n 
-0000008965 00000 n 
-0000014338 00000 n 
-0000006575 00000 n 
-0000009771 00000 n 
-0000005946 00000 n 
-0000007230 00000 n 
-0000010547 00000 n 
-0000007907 00000 n 
-0000013533 00000 n 
-0000005991 00000 n 
-0000006023 00000 n 
-0000005312 00000 n 
-0000001744 00000 n 
-0000003302 00000 n 
-0000006084 00000 n 
-0000006116 00000 n 
-0000005475 00000 n 
-0000003323 00000 n 
-0000004296 00000 n 
-0000006168 00000 n 
-0000006200 00000 n 
-0000005638 00000 n 
-0000004316 00000 n 
-0000005131 00000 n 
-0000006252 00000 n 
-0000006284 00000 n 
-0000010026 00000 n 
-0000010892 00000 n 
-0000013782 00000 n 
-0000014963 00000 n 
-0000006336 00000 n 
-0000006798 00000 n 
-0000007648 00000 n 
-0000008244 00000 n 
-0000009684 00000 n 
-0000021414 00000 n 
-trailer
-<< /Size 43 /Root 1 0 R /Info 2 0 R
-/ID [<1DD1AE14EA560229025B455A7A2D9052><1DD1AE14EA560229025B455A7A2D9052>]
->>
-startxref
-23187
-%%EOF
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?1l>[?2004l
-]2;clear]1;clear[H[2J[3J[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
-]2;ls --color=tty]1;ls[0m[01;35m2025-08-31-093103_2880x1800_scrot.png[0m  [01;34marchive[0m  [01;34mDocuments[0m  [01;34mMusic[0m    otw.txt   [01;34mPublic[0m     [01;34mVideos[0m
-[01;35m2025-08-31-093116_2880x1800_scrot.png[0m  [01;34mDesktop[0m  [01;34mDownloads[0m  otw.pdf  [01;34mPictures[0m  [01;34mTemplates[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[32mr[39m[32mr[32mm[39m [4mo[24m[4mo[4mt[24m[4mt[4mw[24m[4mw[4m.[24m[4m.[4mp[24m[4mp[4md[24m[4md[4mf[24m[?1l>[?2004l
-]2;rm otw.pdf]1;rm[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
-]2;ls --color=tty]1;ls[0m[01;35m2025-08-31-093103_2880x1800_scrot.png[0m  [01;35m2025-08-31-093116_2880x1800_scrot.png[0m  [01;34marchive[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  otw.txt  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[7mmkdir -p ~/OTW/Bandit[27m[21D[27m[32mm[27m[32mk[27m[32md[27m[32mi[27m[32mr[39m[27m [27m-[27mp[27m [27m~[27m/[27mO[27mT[27mW[27m/[27mB[27ma[27mn[27md[27mi[27mt[?1l>[?2004l
-]2;mkdir -p ~/OTW/Bandit]1;mkdir[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[7mmv ~/otw.txt ~/OTW/Bandit/bandit0_session.txt[27m
-[K[A[4C[27m[32mm[27m[32mv[39m[27m [27m[4m~[27m[4m/[27m[4mo[27m[4mt[27m[4mw[27m[4m.[27m[4mt[27m[4mx[27m[4mt[24m[27m [27m~[27m/[27mO[27mT[27mW[27m/[27mB[27ma[27mn[27md[27mi[27mt[27m/[27mb[27ma[27mn[27md[27mi[27mt[27m0[27m_[27ms[27me[27ms[27ms[27mi[27mo[27mn[27m.[27mt[27mx[27mt[1B[K[?1l>[?2004l
-]2;mv ~/otw.txt ~/OTW/Bandit/bandit0_session.txt]1;mv[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
-]2;ls --color=tty]1;ls[0m[01;35m2025-08-31-093103_2880x1800_scrot.png[0m  [01;35m2025-08-31-093116_2880x1800_scrot.png[0m  [01;34marchive[0m  [01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mOTW[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~]1;~]7;file://kali/home/ethos\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4mO[24m[4mO[4mT[24m[4mT[4mW[24m[?1l>[?2004l
-]2;cd OTW]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~/OTW]1;~/OTW]7;file://kali/home/ethos/OTW\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~/OTW[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
-]2;ls --color=tty]1;ls[0m[01;34mBandit[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                               ]2;ethos@kali:~/OTW]1;~/OTW]7;file://kali/home/ethos/OTW\[0m[27m[24m[J[1m[31mâ”Œâ”€â”€([32methos[31mã‰¿[34mkali[31m)-[[33m~/OTW[31m][0m[31m[39m
-[1m[31mâ””â”€[37m$ [0m[37m[39m[K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4mB[24m[4mB[4ma[24m[4ma[4mn[24m[4mn[4md[24m[4md[4mi[24m[4mi[4mt[24m[?1l>[?2004l
-]2;cd Bandit]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                  
