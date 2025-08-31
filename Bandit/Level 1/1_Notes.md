@@ -13,7 +13,7 @@ ssh bandit1@bandit.labs.overthewire.org -p 2220
  Password: (from Level 0 solution)
  Connected successfully.
 
-![SSH Connection](screenshots/1_sshlevel1.png)
+![SSH Connection](2_screenshots/1_ssh.png)
 
 ---
 
@@ -27,8 +27,9 @@ ls command lists all the contents of the current directory(Home)
 * Viewed the contents of the file to get the password:
 
 cat ./-
+file had tricky names like "-" used ./"filename or quotes"
 Here ./ refers to the current directory and ensures that the file named "-" is treated as a normal file instead of stdin/stdout.
-![Commands and Output](2_screenshots/2_catpassword.png)
+![Commands and Output](2_screenshots/2_commands.png)
 
 ## Solution / Password for Level 2
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
