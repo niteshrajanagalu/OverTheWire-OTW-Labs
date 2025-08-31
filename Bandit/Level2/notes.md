@@ -11,7 +11,7 @@ The password for the next level is stored in a file called `--spaces in this fil
    ssh bandit2@bandit.labs.overthewire.org -p 2220  
    *(Use the password from Level 1 → 2)*  
 
-   ![SSH Login](sshlogin.png)
+   ![SSH Login](screenshots/sshlogin.png)
 
 2. **List files in the home directory**  
    ls -lb  
@@ -22,7 +22,7 @@ The password for the next level is stored in a file called `--spaces in this fil
    The command prints the password for **Level 3**.  
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx(passwords might vary as OTW updates or changes them please follow up practically)
 
-   ![Commands Output](command.png)
+   ![Commands Output](screenshots/command.png)
 
 ---
 
