@@ -17,5 +17,7 @@ Result:
   PASSWORD_FOR_LEVEL_1
 
 Screenshot:
-- [Add screenshot here showing the terminal commands and output]
+![SSH Login](screenshots/sshlogin.png)
+![Outputs](screenshots/command.png)
+
 - Make sure the password is hidden/covered if visible.
