@@ -1,6 +1,7 @@
 Bandit Level 12 → 13 Workflow
 
 Step 1: Setup a temporary workspace to keep the home directory clean
+
 mkdir /tmp/nitz
 cp data.txt /tmp/nitz
 cd /tmp/nitz
@@ -54,3 +55,4 @@ Repeat decompression and extraction until ASCII text is revealed.
 
 Screenshot Reference for the Complete Workflow:
 ![Bandit 12 to 13 Workflow](screenshots/command.png)
+
