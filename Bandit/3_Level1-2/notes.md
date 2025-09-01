@@ -17,5 +17,6 @@ Result:
 - In this repo, the password is **blurred for security** in screenshots.
 
 Screenshot:
-- [Add screenshot here showing the command used to cat the file]
+![Output](screenshots/level1-2.png)
+
 - The screenshot shows the command; password is blurred.
