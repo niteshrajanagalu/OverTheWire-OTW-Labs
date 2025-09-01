@@ -10,7 +10,6 @@ Steps:
 3. Enter the Level 0 password provided by the game (shown in the screenshot provided by the game).
 
 Screenshot:
-- Located in:
- 1_Level0/screenshots/sshlogin.jpg
+![SSH Command](1_Level0/screenshots/sshlogin.jpg)
 - The screenshot shows the SSH command in the terminal. 
 - Password is hidden/covered for security.
