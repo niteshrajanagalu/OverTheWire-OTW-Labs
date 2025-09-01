@@ -20,4 +20,4 @@ Screenshot:
 ![SSH Login](screenshots/sshlogin.png)
 ![Outputs](screenshots/command.png)
 
-- password is hidden/covered if visible.
+- password is hidden/covered.
