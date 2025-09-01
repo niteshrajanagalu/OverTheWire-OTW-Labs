@@ -7,18 +7,17 @@ Steps and Explanation:
 
 1. Verify the file exists:
 ls
-# This lists files in the current directory. You should see data.txt.
+- This lists files in the current directory. You should see data.txt.
 
 2. Search for the word "millionth" in the file:
 grep "millionth" data.txt
-# Explanation:
-# - grep searches for the pattern "millionth" in data.txt.
-# - It prints the line containing the pattern.
-# - The password is located immediately after the word "millionth".
+- grep searches for the pattern "millionth" in data.txt.
+- It prints the line containing the pattern.
+- The password is located immediately after the word "millionth".
 
-3. Extract the password (second column):
-# From the grep output, the password is the word after "millionth".
-# In this case, it is dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc.
+3. Extract the password:
+- From the grep output, the password is the word after "millionth".
+- In this case, it is dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc.
 
 Level 7 → 8 Password:
 Password is blurred for reference
