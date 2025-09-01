@@ -27,5 +27,5 @@ Result:
 - In this repo, the password is **blurred for security** in screenshots.
 
 Screenshot:
-- [Add screenshot here showing the command used to list and cat `...Hiding-From-You`]
+![Output](screenshots/command.png)
 - The screenshot shows only the commands; password is blurred.
