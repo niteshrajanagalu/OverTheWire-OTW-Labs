@@ -41,4 +41,4 @@ Level 5 → 6 Password
 Password is blurred for reference
 
 Output Screenshot:
-![Bandit Level 5 → 6 Output](screenshots/command.png)
+![Bandit Level 5 → 6 Output](screenshots/commands.png)
