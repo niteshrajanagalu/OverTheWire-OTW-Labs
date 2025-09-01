@@ -17,7 +17,6 @@ grep "millionth" data.txt
 
 3. Extract the password:
 - From the grep output, the password is the word after "millionth".
-- In this case, it is dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc.
 
 Level 7 → 8 Password:
 Password is blurred for reference
