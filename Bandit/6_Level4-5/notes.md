@@ -32,6 +32,6 @@ Result:
 - The human-readable file contains the password for Level 5.
 - In this repo, the password is **blurred for security** in screenshots.
 
-Screenshot:
+Screenshot(ignore errors):
 ![Commands used in Level 4-5](screenshots/command.png)
 - The screenshot shows only the commands; password is blurred.
