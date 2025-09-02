@@ -1,5 +1,3 @@
-I can help with that.
-
 ### Bandit Level 21 → Level 22 Walkthrough
 
 This level requires you to inspect a cron job to find the password for the next level. **Cron** is a time-based job scheduler in Unix-like operating systems. It allows users to schedule commands or scripts to run automatically at specified intervals.
