@@ -14,11 +14,11 @@ Example output:
 2. SSH into Bandit14 using the key:
 ssh -i sshkey.private bandit14@localhost -p 2220
 
-Screenshot reference:![Command1](command.png)
+Screenshot reference:![Command1](screenshots/command.png)
 3. Retrieve the Bandit15 password from Bandit14:
 cat /path/to/password_file
 
-Screenshot reference:![command output]( command1.png)
+Screenshot reference:![command output]( screenshots/command1.png)
 
 Notes:
 - /etc/bandit_pass/bandit14 is not directly readable; the key file acts as the login credential.
