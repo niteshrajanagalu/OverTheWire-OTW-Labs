@@ -35,5 +35,7 @@ To get the password, you need to replicate the steps the script takes to determi
     ```
 
     Replace `<your_md5_hash_here>` with the actual hash you generated. This will print the password for Bandit Level 23.
-###Screenshot Reference for this level:
+
+
+### 🔑 Reference Screenshot for this level:
 ![](screenshots/command.png)
