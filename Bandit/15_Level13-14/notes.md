@@ -18,7 +18,7 @@ Screenshot reference:![Command1](screenshots/command.png)
 3. Retrieve the Bandit15 password from Bandit14:
 cat /path/to/password_file
 
-Screenshot reference:![command output]( screenshots/command1.png)
+Screenshot reference(Passowrd blurred for security):![command output]( screenshots/command1.png)
 
 Notes:
 - /etc/bandit_pass/bandit14 is not directly readable; the key file acts as the login credential.
