@@ -84,8 +84,7 @@ bandit26@bandit:~$ cat /etc/bandit_pass/bandit26
 ```
 
 Here's a screenshot showing the `vi` shell escape and password retrieval.
-![](screeenshots/comm.png)
------
+![](screenshots/comm.png)
 
 ## Explanation 🧐
 
