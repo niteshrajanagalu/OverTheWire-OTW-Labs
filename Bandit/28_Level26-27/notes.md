@@ -1,3 +1,4 @@
+### BANDIT 26-27 
 ### Level Goal
 
 The goal is to find the password for **bandit27** after you have already obtained a shell on the **bandit26** user. The password is in a file, and you must use shell commands to find it.
