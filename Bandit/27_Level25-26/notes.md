@@ -1,7 +1,3 @@
-Of course. I've updated the notes to hide the password and added a spoiler warning for the image. Here is the revised version.
-
------
-
 # Bandit Wargame: Level 25 → Level 26
 
 ## Goal
@@ -88,8 +84,7 @@ bandit26@bandit:~$ cat /etc/bandit_pass/bandit26
 ```
 
 Here's a screenshot showing the `vi` shell escape and password retrieval.
-**Spoiler Warning:** The image below reveals the password for the next level.
-
+![](screeenshots/comm.png)
 -----
 
 ## Explanation 🧐
