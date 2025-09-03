@@ -36,4 +36,4 @@ Log in to Bandit 26, whose shell is not a standard `/bin/bash` but a restricted 
     bandit26@bandit:~$ Password for your next level will be displayed
     ```
 **Screenshot for refference**
-![](screenshots/command.png)
+![](screenshots/comm.png)
