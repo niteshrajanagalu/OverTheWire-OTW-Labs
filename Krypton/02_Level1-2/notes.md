@@ -15,6 +15,8 @@
 cd /krypton/krypton1
 ls
 ```
+## REFERENCE SCREENSHOT
+![](screenshots/command1.png)
 
 ### 2️⃣ View encrypted content
 ```bash
@@ -27,6 +29,9 @@ cat krypton2
 cat krypton2 | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 # Output: LEVEL TWO PASSWORD ROTTEN
 ```
+
+## REFERENCE SCREENSHOT
+![](screenshots/command2.png)
 
 ### 4️⃣ Password
 ```
@@ -44,3 +49,4 @@ ssh krypton2@<host>
 * Spaces and punctuation are not affected.  
 * `cd /krypton/krypton1` ensures you are in the correct directory.  
 * Understanding ROT13: mentally split the alphabet in half (A–M / N–Z); swap halves to decode.
+
