@@ -13,18 +13,26 @@ S1JZUFRPTklTR1JFQVQ=
 ```bash
 echo S1JZUFRPTklTR1JFQVQ= | base64 -d
 ```
+## SCREENSHOT FOR REFERENCE 
+
+![](screenshots/command1)
 **Explanation:**  
 - `echo` prints the string to STDOUT.  
 - `|` pipes it to the next command.  
 - `base64 -d` decodes Base64 input to plain text.  
-- Output: `KRYPTONISGREAT` (this is the password for Level 1).  
+- Output: `<THE STRING YOU OBTAINED DECODING BASE64>` (this is the password for Level 1).  
 > Note: The `%` you see after decoding is the shell prompt, not part of the password.
 ### 2️⃣ SSH into Level 1
 ```bash
 ssh krypton1@krypton.labs.overthewire.org -p 2231
 ```
 - Username: `krypton1`  
-- Password: `KRYPTONISGREAT`  
+- Password: `<PASSWORD YOU OBTAINED DECODING BASE64>`  
+
+## SCREENSHOT FOR REFERENCE 
+
+![](screenshots/command1)
+
 You should now be logged in and ready to start Level 1.
 ## Key Concepts Learned
 - Base64 encoding/decoding  
@@ -34,3 +42,4 @@ You should now be logged in and ready to start Level 1.
 - Always decode passwords carefully — extra whitespace or shell prompt symbols are not part of the password.  
 - Understanding Base64 is essential for future Krypton levels.  
 - Keep a personal cheatsheet of commands used for quick reference in later levels.
+
