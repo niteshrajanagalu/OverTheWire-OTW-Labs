@@ -27,7 +27,7 @@ cat krypton2
 ### 3️⃣ Decrypt using ROT13
 ```bash
 cat krypton2 | tr 'A-Za-z' 'N-ZA-Mn-za-m'
-# Output: LEVEL TWO PASSWORD ROTTEN
+# Output: "LEVEL TWO PASSWORD WILL BE PRINTED HERE AFTER THE ROT13 TRANSLATION"
 ```
 
 ## REFERENCE SCREENSHOT
@@ -35,13 +35,13 @@ cat krypton2 | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
 ### 4️⃣ Password
 ```
-LEVEL TWO PASSWORD ROTTEN
+LEVEL TWO PASSWORD 
 ```
 
 ### 5️⃣ Login to Level 2
 ```bash
 ssh krypton2@<host>
-# Enter password: LEVEL TWO PASSWORD ROTTEN
+# Enter password: LEVEL TWO PASSWORD 
 ```
 
 ## Hints / Notes
@@ -49,4 +49,5 @@ ssh krypton2@<host>
 * Spaces and punctuation are not affected.  
 * `cd /krypton/krypton1` ensures you are in the correct directory.  
 * Understanding ROT13: mentally split the alphabet in half (A–M / N–Z); swap halves to decode.
+
 
