@@ -9,6 +9,7 @@ The strategy is to combine all the ciphertext files into one large text. This gi
 ## Step 1: Setup and Tools
 
 First, I created a temporary directory on the server to keep the files organized. I then needed a tool to perform frequency analysis. I wrote a simple Python script, `freq_analysis.py`, to count the occurrences of single characters (monograms), pairs (digrams), and triplets (trigrams).
+- Script for Frequency Analysis : [freq_analysis.py](freq_analysis.py)
 
 I transferred this script from my local machine to the remote server using `scp`.
 
@@ -111,6 +112,7 @@ While our `tr` command couldn't perfectly model this, it was the right tool to c
 
 ![](screenshots/notepad.png)
 **The password for Krypton level 4 is BRUTE.**
+
 
 
 
