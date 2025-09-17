@@ -32,10 +32,10 @@ Then, I ran it with a group size of **3** to find the most common trigrams. This
 
 -----
 ## REFERENCE SCREENSHOT:Group size 1 and 2
-![](/screenshots/command1.png)
+![](screenshots/command1.png)
 
 ## Group Size 2
-![](/screenshots/comman2.png)
+![](screenshots/comman2.png)
 
 ## Step 3: Iterative Decryption
 
@@ -44,7 +44,7 @@ My working hypothesis was that the most common ciphertext trigram, `JDS`, corres
 I used the `tr` command to substitute these characters and slowly reveal the plaintext. I started with `JDS` -\> `THE` and then used the partially decrypted text to make more educated guesses.
 
 ## SCREENSHOT REFERENCE:
-![](/screenshots/command3.png)
+![](screenshots/command3.png)
 
 
 This was an iterative process:
@@ -56,7 +56,7 @@ This was an iterative process:
 
 Here's a snapshot of my thought process during the substitutions. I used a notepad to keep track of the mappings and observe the resulting plaintext. The goal was to turn the ciphertext into readable English.
 
-![](/screenshots/notepad.png)
+![](screenshots/notepad.png)
 
 The key substitutions were:
 
@@ -109,7 +109,8 @@ This conflict is intentional. It's the final clue that proves we are dealing wit
 While our `tr` command couldn't perfectly model this, it was the right tool to crack the code and reveal the final password.
 
 
-![](/screenshots/notepad.png)
+![](screenshots/notepad.png)
 **The password for Krypton level 4 is BRUTE.**
+
 
 
