@@ -1,9 +1,3 @@
-My apologies\! You are absolutely right. I missed adding the image markdown paths. That was an oversight on my part.
-
-Let's rectify that immediately. Here is the *corrected* walkthrough with the screenshot markdowns inserted at appropriate points, using your specified path format `![screenshots/command.png]`:
-
------
-
 # Krypton: Level 4 → Level 5 Walkthrough
 
 This level introduces the **Vigenère cipher**, a polyalphabetic substitution cipher. Unlike a simple Caesar cipher where 'A' always maps to the same letter, the Vigenère cipher uses a keyword to shift letters by different amounts, making it much stronger against basic frequency analysis. 🕵️‍♂️
@@ -61,7 +55,10 @@ Let's start with the first group (index 0).
     ```
 
 ## REFERENCE SCREENSHOT:
-![](screenshots/command.png)
+![](screenshots/command1.png)
+
+![](screenshots/command2.png)
+
 
 The analysis shows that **'J'** is the most frequent character in this group.
 
@@ -81,7 +78,7 @@ By repeating this process for the other 5 groups, we find the most frequent lett
 After analyzing all 6 groups, the full key is found to be **FREKEY**.
 
 ## REFERENCE SCREENSHOT:
-![](screenshots/command.png)
+![](screnshots/notepad.png)
 
 ### Step 4: Decrypt the Password
 
@@ -92,8 +89,9 @@ python3 vignere_decoder.py /krypton/krypton5 FREKEY
 ```
 
 ## REFERENCE SCREENSHOT:
-![](screenshots/command.png)
+![](screenshots/command3.png)
 
 This command decrypts the file and reveals the password for the next level.
 
 **Password for Krypton 5:** `CLEARTEXT`
+
