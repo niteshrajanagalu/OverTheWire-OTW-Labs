@@ -16,7 +16,8 @@ I transferred this script from my local machine to the remote server using `scp`
 # Command to transfer the script
 scp -P 2231 freq_analysis.py krypton3@krypton.labs.overthewire.org:/tmp/tmp.nBvIecuVca
 ```
-
+## REFERENCE SCREENSHOT:
+![](/screenshots/scp.png)
 Here is the Python script used for the analysis. It takes a filename and a group size (e.g., 1 for monograms, 3 for trigrams) as arguments.
 
 
@@ -30,12 +31,21 @@ I ran the script first with a group size of **1** to find the most common single
 Then, I ran it with a group size of **3** to find the most common trigrams. This is often the key to breaking this type of cipher. The analysis showed that **`JDS`** was the most frequent trigram in the combined ciphertext.
 
 -----
+## REFERENCE SCREENSHOT:Group size 1 and 2
+![](/screenshots/command1.png)
+
+## Group Size 2
+![](/screenshots/comman2.png)
 
 ## Step 3: Iterative Decryption
 
 My working hypothesis was that the most common ciphertext trigram, `JDS`, corresponds to the most common English trigram, `THE`.
 
 I used the `tr` command to substitute these characters and slowly reveal the plaintext. I started with `JDS` -\> `THE` and then used the partially decrypted text to make more educated guesses.
+
+## SCREENSHOT REFERENCE:
+![](/screenshots/command3.png)
+
 
 This was an iterative process:
 
@@ -45,6 +55,8 @@ This was an iterative process:
 4.  Repeat.
 
 Here's a snapshot of my thought process during the substitutions. I used a notepad to keep track of the mappings and observe the resulting plaintext. The goal was to turn the ciphertext into readable English.
+
+![](/screenshots/notepad.png)
 
 The key substitutions were:
 
@@ -96,4 +108,7 @@ This conflict is intentional. It's the final clue that proves we are dealing wit
 
 While our `tr` command couldn't perfectly model this, it was the right tool to crack the code and reveal the final password.
 
+
+![](/screenshots/notepad.png)
 **The password for Krypton level 4 is BRUTE.**
+
