@@ -29,6 +29,8 @@ We will perform frequency analysis on each of the 6 groups. Since the plaintext 
 ## Step-by-Step Solution
 
 ### Step 1: Prepare the Environment
+The files you might need 
+[freq_analysis.py](freq_analysis.py)  [vignere_shift](vignere_shift.py) [vignere_decoder.py](vignere_decoder.py)
 
 To automate the analysis, a few helper scripts are useful. I used `scp` to transfer Python scripts for frequency analysis and Vigenère decoding to a temporary directory on the server.
 
@@ -94,4 +96,5 @@ python3 vignere_decoder.py /krypton/krypton5 FREKEY
 This command decrypts the file and reveals the password for the next level.
 
 **Password for Krypton 5:** `CLEARTEXT`
+
 
