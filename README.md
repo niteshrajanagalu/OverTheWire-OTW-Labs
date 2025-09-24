@@ -131,9 +131,6 @@ Bandit/
 
 </details>
 
-<details>
-<summary><strong>Krypton</strong></summary>
-
 <pre>
 <details>
 <summary><strong>Krypton</strong></summary>
