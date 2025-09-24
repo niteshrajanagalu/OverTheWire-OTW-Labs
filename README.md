@@ -135,23 +135,32 @@ Bandit/
 <summary><strong>Krypton</strong></summary>
 
 <pre>
-Krypton/
-├── 01_Level0/
+<details>
+<summary><strong>Krypton</strong></summary>
+
+<pre>
+krypton/
+├── README.md
+├── 01_Level0-1/
 │   ├── screenshots/
 │   └── notes.md
-├── 02_Level0-1/
+├── 02_Level1-2/
 │   ├── screenshots/
 │   └── notes.md
-├── 03_Level1-2/
+├── 03_Level2-3/
 │   ├── screenshots/
 │   └── notes.md
-├── 04_Level2-3/
+├── 04_Level3-4/
 │   ├── screenshots/
+│   ├── freq_analysis.py
 │   └── notes.md
-├── 05_Level3-4/
+├── 05_Level4-5/
 │   ├── screenshots/
+│   ├── freq_analysis.py
+│   ├── vignere_decoder.py
+│   ├── vignere_shift.py
 │   └── notes.md
-├── 06_Level4-5/
+├── 06_Level5-6/
 │   ├── screenshots/
 │   └── notes.md
 └── 07_Level6-7/
@@ -160,6 +169,7 @@ Krypton/
 </pre>
 
 </details>
+
 
 ---
 
