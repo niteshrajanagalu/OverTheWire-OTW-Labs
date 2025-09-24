@@ -174,5 +174,5 @@ krypton/
 - Each level contains:
   - **screenshots/** → terminal outputs and progress images.  
   - **notes.md** → solution write-up (commands, explanation, lessons learned).  
-
+  - **attached files** → Pre-written cipher tools (commands, automation). 
 ---
