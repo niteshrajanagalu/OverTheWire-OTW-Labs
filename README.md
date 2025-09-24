@@ -131,7 +131,6 @@ Bandit/
 
 </details>
 
-<pre>
 <details>
 <summary><strong>Krypton</strong></summary>
 
@@ -166,6 +165,7 @@ krypton/
 </pre>
 
 </details>
+
 
 
 ---
