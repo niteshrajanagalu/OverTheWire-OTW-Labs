@@ -169,6 +169,3 @@ Krypton/
   - **notes.md** → solution write-up (commands, explanation, lessons learned).  
 
 ---
-
-> Tip: to add clickable links for each folder in this README, I can generate the exact markdown link lines (`[01_Level0](Bandit/01_Level0/)`) for all folders — say the word and I’ll paste them in.
-
