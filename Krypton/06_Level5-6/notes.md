@@ -4,8 +4,6 @@ Of course. Here is a walkthrough for Krypton Level 4 to 5, presented in a style 
 
 # Krypton: Level 4 → Level 5
 
-The final password is **`KEYLENGTH`**.
-
 This level is a **Vigenère cipher** where the key length is given as **6**. The strategy is to split the ciphertext into six parts and solve each part as a simple Caesar cipher using frequency analysis.
 
 -----
@@ -54,6 +52,12 @@ K:      20
 D:      18
 ... (and so on)
 ```
+## SCREENSHOT REFFERENCE:
+
+![](screenshots/shift.png)
+
+## SCREENSHOT REFFERENCE:
+![](screenshots/shifts.png)
 
 In this example for position 0, the most frequent letter is **'O'**.
 
@@ -83,4 +87,5 @@ KEYLENGTH
 ```
 
 The command outputs the password for Level 5.
+
 
