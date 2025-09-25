@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Script by Mike Rosinsky
+# Script by NITESH
 
 import sys
 
