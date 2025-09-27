@@ -4,8 +4,7 @@
 This level's challenge is to break a **stream cipher** by performing a **known-plaintext attack**. The cipher's weakness is its pseudo-random number generator, an **8-bit LFSR**, which produces a short, repeating keystream. Our strategy is to reveal this keystream and use it to decrypt the password.
 
 ---
-
-** 🔎 Walkthrough from Screenshots
+### 🔎 Walkthrough from Screenshots
 
 ### 1. Initial Analysis & Setup
 
@@ -112,5 +111,6 @@ if __name__=="__main__":
 ```
 
 ````
+
 
 
