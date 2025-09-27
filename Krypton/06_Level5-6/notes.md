@@ -1,7 +1,3 @@
-Of course. Here is a walkthrough for Krypton Level 4 to 5, presented in a style similar to your terminal screenshots.
-
------
-
 # Krypton: Level 4 → Level 5
 
 This level is a **Vigenère cipher** where the key length is given as **6**. The strategy is to split the ciphertext into six parts and solve each part as a simple Caesar cipher using frequency analysis.
@@ -24,7 +20,10 @@ vignere_shift.py          100%  760   2.7KB/s   00:00
 vignere_decoder.py        100%  749   2.2KB/s   00:00
 ```
 ## SCREENSHOT REFFERENCE:
+
 ![](screenshots/scp.png)
+
+
 
 ### Step 2: Split the Ciphertexts
 
@@ -57,9 +56,12 @@ D:      18
 ![](screenshots/shift.png)
 
 ## SCREENSHOT REFFERENCE:
+
 ![](screenshots/shifts.png)
 
 In this example for position 0, the most frequent letter is **'O'**.
+
+-----
 
 ### Step 4: Calculate the Key 🔑
 
@@ -83,9 +85,7 @@ Finally, use the key `FREKEY` to decrypt the password file.
 ```bash
 krypton5@krypton:/tmp/tmp.CRrxVqdOC1$ python3 vignere_decoder.py /krypton/krypton5/krypton6 FREKEY
 
-KEYLENGTH
+RANDOM
 ```
 
 The command outputs the password for Level 5.
-
-
