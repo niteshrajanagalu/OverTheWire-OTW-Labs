@@ -1,18 +1,17 @@
-````markdown
- Krypton: Level 6 → Level 7
+# Krypton: Level 6 → Level 7
 
 This level's challenge is to break a **stream cipher** by performing a **known-plaintext attack**. The cipher's weakness is its pseudo-random number generator, an **8-bit LFSR**, which produces a short, repeating keystream. Our strategy is to reveal this keystream and use it to decrypt the password.
 
----
-### 🔎 Walkthrough from Screenshots
+-----
 
-### 1. Initial Analysis & Setup
+## 🔎 Walkthrough
 
-First, we navigate to the challenge directory `/krypton/krypton6` and gather intelligence by reading the hint files.
-* **HINT1** reveals the generator is periodic.
-* **HINT2** confirms the specific vulnerability: an **8-bit LFSR**.
+### 1\. Initial Analysis & Setup
 
-![](screenshots/Screenshot%20From%202025-09-27%2021-49-26.jpg)
+First, navigate to the challenge directory `/krypton/krypton6` and gather intelligence by reading the hint files.
+
+  * **HINT1** reveals the generator is periodic.
+  * **HINT2** confirms the specific vulnerability: an **8-bit LFSR**.
 
 It's good practice to create a separate working directory in `/tmp` to avoid cluttering the original challenge folder. We then create symbolic links (`ln -s`) to the necessary files (`encrypt6`, `krypton7`, `keyfile.dat`) so we can work with them from our new location.
 
@@ -21,11 +20,11 @@ krypton6@krypton:/krypton/krypton6$ mkdir /tmp/lvl7
 krypton6@krypton:/krypton/krypton6$ cd /tmp/lvl7
 krypton6@krypton:/tmp/lvl7$ ln -s /krypton/krypton6/encrypt6
 krypton6@krypton:/tmp/lvl7$ ln -s /krypton/krypton6/krypton7
-````
+```
 
 ### 2\. The Known-Plaintext Attack
 
-Inside our workspace (`/tmp/lvl7`), we create a file, `a.txt`, containing a long string of a single character ('A'). We then run the linked `encrypt6` executable, using `a.txt` as the plaintext to generate `cipher.txt`.
+Inside the workspace (`/tmp/lvl7`), create a file, `a.txt`, containing a long string of a single character ('A'). Then run the linked `encrypt6` executable, using `a.txt` as the plaintext to generate `cipher.txt`.
 
 ```bash
 # Create a file with a long string of 'A's
@@ -37,13 +36,13 @@ krypton6@krypton:/tmp/lvl7$ ./encrypt6 a.txt cipher.txt
 
 ### 3\. Finding the Key with Sublime Text
 
-We `cat` the resulting `cipher.txt` and copy its output. By pasting this string into a local text editor like **Sublime Text**, we can easily add line breaks and visually identify the repeating pattern. This pattern is the cipher's key.
+`cat` the resulting `cipher.txt` and copy its output. By pasting this string into a local text editor like **Sublime Text**, you can easily add line breaks and visually identify the repeating pattern. This pattern is the cipher's key.
 
 The repeating key is: **`EICTDGYIYZKTHNSIRFXYCPFUEOCKRN`**
 
 ### 4\. Transferring the Decoder Script
 
-From our local Kali machine, we use the **`scp` (Secure Copy)** command to upload our `vignere_decoder.py` script to the `/tmp/lvl7` directory on the remote server.
+From your local machine, use the **`scp` (Secure Copy)** command to upload your `vignere_decoder.py` script to the `/tmp/lvl7` directory on the remote server.
 
 ```bash
 (ethos@kali)-[~]
@@ -52,7 +51,7 @@ From our local Kali machine, we use the **`scp` (Secure Copy)** command to uploa
 
 ### 5\. Decrypting the Password
 
-With the key identified and the decoder script in our workspace, we can execute the final command to decrypt the password file.
+With the key identified and the decoder script in your workspace, execute the final command to decrypt the password file.
 
 ```bash
 krypton6@krypton:/tmp/lvl7$ python3 vignere_decoder.py krypton7 EICTDGYIYZKTHNSIRFXYCPFUEOCKRN
@@ -109,9 +108,3 @@ if __name__=="__main__":
 
     print(out_string)
 ```
-
-````
-
-
-
-
