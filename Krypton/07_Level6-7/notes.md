@@ -1,9 +1,3 @@
-Of course. I've updated the `notes.md` file to precisely match your detailed workflow, incorporating the setup of a working directory, the symbolic links, the new `scp` screenshot, and the full Python script you provided.
-
-Here is the revised guide for your GitHub repository.
-
------
-
 # Krypton: Level 6 → Level 7
 
 This level's challenge is to break a **stream cipher** by performing a **known-plaintext attack**. The cipher's weakness is its pseudo-random number generator, an **8-bit LFSR**, which produces a short, repeating keystream. Our strategy is to reveal this keystream and use it to decrypt the password.
@@ -117,3 +111,4 @@ if __name__=="__main__":
 ```
 
 \</details\>
+
