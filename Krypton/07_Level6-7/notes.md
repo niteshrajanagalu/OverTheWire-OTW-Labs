@@ -15,6 +15,11 @@ First, navigate to the challenge directory `/krypton/krypton6` and gather intell
 
 It's good practice to create a separate working directory in `/tmp` to avoid cluttering the original challenge folder. We then create symbolic links (`ln -s`) to the necessary files (`encrypt6`, `krypton7`, `keyfile.dat`) so we can work with them from our new location.
 
+### SCREENSHOT REFERENCE:
+
+![](screenshots/hints.png)
+
+
 ```bash
 krypton6@krypton:/krypton/krypton6$ mkdir /tmp/lvl7
 krypton6@krypton:/krypton/krypton6$ cd /tmp/lvl7
@@ -33,12 +38,21 @@ krypton6@krypton:/tmp/lvl7$ python -c "print('A'*100)" > a.txt
 # Encrypt the known plaintext
 krypton6@krypton:/tmp/lvl7$ ./encrypt6 a.txt cipher.txt
 ```
+### SCREENSHOT REFERENCE:
+
+![](screenshots/hints2.png)
+
 
 ### 3\. Finding the Key with Sublime Text
 
 `cat` the resulting `cipher.txt` and copy its output. By pasting this string into a local text editor like **Sublime Text**, you can easily add line breaks and visually identify the repeating pattern. This pattern is the cipher's key.
 
 The repeating key is: **`EICTDGYIYZKTHNSIRFXYCPFUEOCKRN`**
+
+### SCREENSHOT REFERENCE:
+
+![](screenshots/sublime.png)
+
 
 ### 4\. Transferring the Decoder Script
 
@@ -49,6 +63,10 @@ From your local machine, use the **`scp` (Secure Copy)** command to upload your 
 └─$ scp -P 2231 vignere_decoder.py krypton6@krypton.labs.overthewire.org:/tmp/lvl7
 ```
 
+### SCREENSHOT REFERENCE:
+
+![](screenshots/scp.png)
+
 ### 5\. Decrypting the Password
 
 With the key identified and the decoder script in your workspace, execute the final command to decrypt the password file.
@@ -58,6 +76,10 @@ krypton6@krypton:/tmp/lvl7$ python3 vignere_decoder.py krypton7 EICTDGYIYZKTHNSI
 ```
 
 -----
+
+### SCREENSHOT REFERENCE:
+
+![](screenshots/final.png)
 
 ## 🔑 Password for Level 7
 
@@ -108,3 +130,4 @@ if __name__=="__main__":
 
     print(out_string)
 ```
+
