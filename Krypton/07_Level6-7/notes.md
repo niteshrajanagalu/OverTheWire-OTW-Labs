@@ -89,6 +89,9 @@ The decrypted password is: **`LFSRISNOTRANDOM`**
 
 ## 🐍 Appendix: `vignere_decoder.py` Script
 
+## Download the .py file 👇
+[vignere_decoder.py](vignere_decoder.py) 
+
 This is the full Python script used for the final decryption.
 
 ```python
@@ -130,4 +133,5 @@ if __name__=="__main__":
 
     print(out_string)
 ```
+
 
