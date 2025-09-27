@@ -1,17 +1,19 @@
+````markdown
 # Krypton: Level 6 → Level 7
 
 This level's challenge is to break a **stream cipher** by performing a **known-plaintext attack**. The cipher's weakness is its pseudo-random number generator, an **8-bit LFSR**, which produces a short, repeating keystream. Our strategy is to reveal this keystream and use it to decrypt the password.
 
------
+---
 
 ## 🔎 Walkthrough from Screenshots
 
-### 1\. Initial Analysis & Setup
+### 1. Initial Analysis & Setup
 
 First, we navigate to the challenge directory `/krypton/krypton6` and gather intelligence by reading the hint files.
+* **HINT1** reveals the generator is periodic.
+* **HINT2** confirms the specific vulnerability: an **8-bit LFSR**.
 
-  * **HINT1** reveals the generator is periodic.
-  * **HINT2** confirms the specific vulnerability: an **8-bit LFSR**.
+![](screenshots/Screenshot%20From%202025-09-27%2021-49-26.jpg)
 
 It's good practice to create a separate working directory in `/tmp` to avoid cluttering the original challenge folder. We then create symbolic links (`ln -s`) to the necessary files (`encrypt6`, `krypton7`, `keyfile.dat`) so we can work with them from our new location.
 
@@ -20,7 +22,7 @@ krypton6@krypton:/krypton/krypton6$ mkdir /tmp/lvl7
 krypton6@krypton:/krypton/krypton6$ cd /tmp/lvl7
 krypton6@krypton:/tmp/lvl7$ ln -s /krypton/krypton6/encrypt6
 krypton6@krypton:/tmp/lvl7$ ln -s /krypton/krypton6/krypton7
-```
+````
 
 ### 2\. The Known-Plaintext Attack
 
@@ -67,8 +69,7 @@ The decrypted password is: **`LFSRISNOTRANDOM`**
 
 ## 🐍 Appendix: `vignere_decoder.py` Script
 
-\<details\>
-\<summary\>Click to view the Python code used for decryption.\</summary\>
+This is the full Python script used for the final decryption.
 
 ```python
 #!/usr/bin/python3
@@ -110,5 +111,4 @@ if __name__=="__main__":
     print(out_string)
 ```
 
-\</details\>
-
+````
